@@ -46,7 +46,7 @@ Some writing here, but we can delete it also.
 [![Cary Institute of Ecosystem Studies](/images/funding/cary-institute.jpg)](https://www.caryinstitute.org/)
 [![National Aeronautics and Space Administration](/images/funding/nasa.png)](https://www.nasa.gov/)
 [![British Royal Society](/images/funding/royal-society.png)](https://royalsociety.org/)
-[![Yale Center for Natural Carbon Capture](/images/funding/png)](https://naturalcarboncapture.yale.edu/)
+[![Yale Center for Natural Carbon Capture](/images/funding/yncc.jpeg)](https://naturalcarboncapture.yale.edu/)
 [![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
 
 {% endcapture %}
