@@ -3,7 +3,7 @@ name: Pablo Narváez
 aliases:
   - P. Narváez
 image: images/photo.jpg
-role: postdoc
+role: graduate
 group: alum
 links:
   orcid: 
