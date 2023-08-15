@@ -1,18 +1,18 @@
 # site properties and page defaults
-title: deadLabCary
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: DEAD Lab
+subtitle: Disturbance Ecology and Decomposition Lab at Cary Institute
+description: Some intriguing description
+header: images/primaryBG.jpeg
+footer: images/primaryBG.jpeg
 
 # site social media and other links
 links:
-  email: contact@deadLabCary.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: gorae@caryinstitute.org
+  orcid: 
+  google-scholar: Ec2_gMUAAAAJ
   github: deadLabCary
-  twitter: deadLabCary
-  youtube: deadLabCary
+  twitter: 
+  youtube: 
 
 ### jekyll settings
 
