@@ -1,7 +1,7 @@
 ---
-name: Paola Jamarillo
+name: Paola Jaramillo
 aliases:
-  - P. Jamarillo
+  - P. Jaramillo
 image: images/photo.jpg
 role: msc
 group: alum
