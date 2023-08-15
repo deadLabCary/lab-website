@@ -41,11 +41,7 @@ Some writing here, but we can delete it also.
 
 {% capture content %}
 
-<a href="https://stri.si.edu" target="_blank">
-
-![STRI](/images/funding/stri.png)
-
-</a>
+{% include figure.html image="/images/funding/stri.png" %}
 
 [![Smithsonian Tropical Research Institute](/images/funding/stri.png)](https://stri.si.edu/)
 
