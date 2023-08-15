@@ -40,6 +40,13 @@ Some writing here, but we can delete it also.
 ## Funding and affiliations
 
 {% capture content %}
+
+<a href="https://stri.si.edu" target="_blank">
+
+![STRI](/images/funding/stri.png)
+
+</a>
+
 [![Smithsonian Tropical Research Institute](/images/funding/stri.png)](https://stri.si.edu/)
 
 [![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
