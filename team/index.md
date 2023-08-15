@@ -41,9 +41,9 @@ Some writing here, but we can delete it also.
 
 {% capture content %}
 
-{% include figure.html image="/images/funding/stri.png" %}
+{% include figure.html image="/images/funding/stri.png" caption="Smithsonian Tropical Research Institute" %}
 
-[![Smithsonian Tropical Research Institute](/images/funding/stri.png)](https://stri.si.edu/)
+[![Smithsonian Tropical Research Institute](/../../images/funding/stri.png)](https://stri.si.edu/)
 
 [![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
 
