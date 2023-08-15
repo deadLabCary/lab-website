@@ -55,6 +55,7 @@ Some writing here, but we can delete it also.
 [![Yale Center for Natural Carbon Capture](/images/funding/yncc.jpeg)](https://naturalcarboncapture.yale.edu/)
 
 [![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
+
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}
