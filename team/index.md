@@ -53,8 +53,6 @@ Some writing here, but we can delete it also.
 
 {% include grid.html style="square" content=content %}
 
-{% include section.html %}
-
 {%
   include figure.html
   image="images/team/samp.png"
