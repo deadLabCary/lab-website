@@ -41,14 +41,20 @@ Some writing here, but we can delete it also.
 
 {% capture content %}
 [![Smithsonian Tropical Research Institute](/images/funding/stri.png)](https://stri.si.edu/)
-[![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
-[![National Science Foundation](/images/funding/nsf.png)](https://www.nsf.gov/)
-[![Cary Institute of Ecosystem Studies](/images/funding/cary-institute.jpg)](https://www.caryinstitute.org/)
-[![National Aeronautics and Space Administration](/images/funding/nasa.png)](https://www.nasa.gov/)
-[![British Royal Society](/images/funding/royal-society.png)](https://royalsociety.org/)
-[![Yale Center for Natural Carbon Capture](/images/funding/yncc.jpeg)](https://naturalcarboncapture.yale.edu/)
-[![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
 
+[![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
+
+[![National Science Foundation](/images/funding/nsf.png)](https://www.nsf.gov/)
+
+[![Cary Institute of Ecosystem Studies](/images/funding/cary-institute.jpg)](https://www.caryinstitute.org/)
+
+[![National Aeronautics and Space Administration](/images/funding/nasa.png)](https://www.nasa.gov/)
+
+[![British Royal Society](/images/funding/royal-society.png)](https://royalsociety.org/)
+
+[![Yale Center for Natural Carbon Capture](/images/funding/yncc.jpeg)](https://naturalcarboncapture.yale.edu/)
+
+[![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
