@@ -40,7 +40,7 @@ Some writing here, but we can delete it also.
 ## Funding
 
 {% capture content %}
-[![NASA](/images/team/nasa.png)](https://www.nasa.gov/)
+[![NASA](/images/team/nasa.svg.png)](https://www.nasa.gov/)
 
 {% endcapture %}
 

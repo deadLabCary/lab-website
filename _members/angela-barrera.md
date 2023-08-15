@@ -3,7 +3,7 @@ name: Ángela Barrera
 aliases:
   - A. Barrera
 image: images/photo.jpg
-role: masters
+role: msc
 group: alum
 links:
   orcid: 

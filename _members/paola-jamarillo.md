@@ -3,7 +3,7 @@ name: Paola Jamarillo
 aliases:
   - P. Jamarillo
 image: images/photo.jpg
-role: masters
+role: msc
 group: alum
 links:
   orcid: 
