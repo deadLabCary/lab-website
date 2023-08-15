@@ -14,8 +14,12 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
-undergrad:
+masters:
   icon: fa-solid fa-user-graduate
+  description: MSc Student
+
+undergrad:
+  icon: fa-solid fa-university
   description: Undergraduate Student
 
 programmer:

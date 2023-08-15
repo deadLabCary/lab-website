@@ -14,22 +14,24 @@ Welcome to our team members!
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
+{% include list.html data="members" component="portrait" filters="role: masters, group: " %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Some other thing here? We can also remove it.
 
 {% include section.html %}
 
 ## Lab alumni
 
+Some writing here, but we can delete it also.
+
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: masters, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
 
@@ -39,6 +41,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% capture content %}
 [![NASA](/images/team/nasa.png)](https://www.nasa.gov/)
+
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
