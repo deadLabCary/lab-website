@@ -20,7 +20,7 @@ Welcome to our team members!
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Some other thing here? We can also remove it.
+Some other writing here? We can also remove it.
 
 {% include section.html %}
 
@@ -52,10 +52,3 @@ Some writing here, but we can delete it also.
 {% endcapture %}
 
 {% include grid.html style="square" content=content %}
-
-{%
-  include figure.html
-  image="images/team/samp.png"
-  caption="This is a stock photo. Full lab picture coming soon!"
-  width="100%"
-%}
