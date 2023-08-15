@@ -41,23 +41,59 @@ Some writing here, but we can delete it also.
 
 {% capture content %}
 
-{% include figure.html image="/images/funding/stri.png" caption="Smithsonian Tropical Research Institute" link="https://stri.si.edu/"%}
+{% 
+  include figure.html 
+  image="/images/funding/stri.png" 
+  caption="Smithsonian Tropical Research Institute" 
+  link="https://stri.si.edu/"
+%}
 
-[![Smithsonian Tropical Research Institute](../../images/funding/stri.png)](https://stri.si.edu/)
+{% 
+include figure.html 
+  image="/images/funding/forest-geo.jpeg" 
+  caption="Forest Global Earth Observatory" 
+  link="https://forestgeo.si.edu/"
+%}
 
-[![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
+{% include figure.html 
+  image="/images/funding/nsf.png" 
+  caption="National Science Foundation" 
+  link="https://www.nsf.gov/"
+%}
 
-[![National Science Foundation](/images/funding/nsf.png)](https://www.nsf.gov/)
+{% include figure.html 
+  image="/images/funding/cary-institute.jpg" 
+  caption="Cary Institute of Ecosystem Studies" 
+  link="https://www.caryinstitute.org/"
+%}
 
-[![Cary Institute of Ecosystem Studies](/images/funding/cary-institute.jpg)](https://www.caryinstitute.org/)
+{%
+  include figure.html 
+  image="/images/funding/nasa.png" 
+  caption="National Aeronautics and Space Administration" 
+  link="https://www.nasa.gov/"
+%}
 
-[![National Aeronautics and Space Administration](/images/funding/nasa.png)](https://www.nasa.gov/)
+{%
+  include figure.html 
+  image="/images/funding/royal-society.png" 
+  caption="British Royal Society" 
+  link="https://royalsociety.org/"
+%}
 
-[![British Royal Society](/images/funding/royal-society.png)](https://royalsociety.org/)
+{%
+  include figure.html 
+  image="/images/funding/yncc.jpeg" 
+  caption="Yale Center for Natural Carbon Capture" 
+  link="https://naturalcarboncapture.yale.edu/"
+%}
 
-[![Yale Center for Natural Carbon Capture](/images/funding/yncc.jpeg)](https://naturalcarboncapture.yale.edu/)
-
-[![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
+{%
+  include figure.html 
+  image="/images/funding/ukri-nerc-square-logo.png" 
+  caption="UK Natural Environment Research Council" 
+  link="https://www.ukri.org/councils/nerc/"
+%}
 
 {% endcapture %}
 
