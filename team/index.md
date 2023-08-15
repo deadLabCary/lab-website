@@ -37,10 +37,17 @@ Some writing here, but we can delete it also.
 
 {% include section.html %}
 
-## Funding
+## Funding and affiliations
 
 {% capture content %}
-[![NASA](/images/team/nasa.svg.png)](https://www.nasa.gov/)
+[![Smithsonian Tropical Research Institute](/images/funding/stri.png)](https://stri.si.edu/)
+[![Forest Global Earth Observatory](/images/funding/forest-geo.jpeg)](https://forestgeo.si.edu/)
+[![National Science Foundation](/images/funding/nsf.png)](https://www.nsf.gov/)
+[![Cary Institute of Ecosystem Studies](/images/funding/cary-institute.jpg)](https://www.caryinstitute.org/)
+[![National Aeronautics and Space Administration](/images/funding/nasa.png)](https://www.nasa.gov/)
+[![British Royal Society](/images/funding/royal-society.png)](https://royalsociety.org/)
+[![Yale Center for Natural Carbon Capture](/images/funding/png)](https://naturalcarboncapture.yale.edu/)
+[![UK Natural Environment Research Council](/images/funding/ukri-nerc-square-logo.png)](https://www.ukri.org/councils/nerc/)
 
 {% endcapture %}
 
