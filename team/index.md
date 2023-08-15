@@ -44,55 +44,49 @@ Some writing here, but we can delete it also.
 {% 
   include figure.html 
   image="/images/funding/stri.png" 
-  caption="Smithsonian Tropical Research Institute" 
   link="https://stri.si.edu/"
 %}
 
 {% 
-include figure.html 
-  image="/images/funding/forest-geo.jpeg" 
-  caption="Forest Global Earth Observatory" 
-  link="https://forestgeo.si.edu/"
+  include figure.html 
+  image="/images/funding/cary-institute.jpg" 
+  link="https://www.caryinstitute.org/"
 %}
 
-{% include figure.html 
+{% 
+  include figure.html 
   image="/images/funding/nsf.png" 
-  caption="National Science Foundation" 
   link="https://www.nsf.gov/"
 %}
 
-{% include figure.html 
-  image="/images/funding/cary-institute.jpg" 
-  caption="Cary Institute of Ecosystem Studies" 
-  link="https://www.caryinstitute.org/"
+{% 
+  include figure.html 
+  image="/images/funding/forest-geo.jpeg" 
+  link="https://forestgeo.si.edu/"
 %}
 
 {%
   include figure.html 
   image="/images/funding/nasa.png" 
-  caption="National Aeronautics and Space Administration" 
   link="https://www.nasa.gov/"
 %}
 
 {%
   include figure.html 
-  image="/images/funding/royal-society.png" 
-  caption="British Royal Society" 
-  link="https://royalsociety.org/"
+  image="/images/funding/ukri-nerc-square-logo.png" 
+  link="https://www.ukri.org/councils/nerc/"
 %}
 
 {%
   include figure.html 
   image="/images/funding/yncc.jpeg" 
-  caption="Yale Center for Natural Carbon Capture" 
   link="https://naturalcarboncapture.yale.edu/"
 %}
 
 {%
   include figure.html 
-  image="/images/funding/ukri-nerc-square-logo.png" 
-  caption="UK Natural Environment Research Council" 
-  link="https://www.ukri.org/councils/nerc/"
+  image="/images/funding/royal-society.png" 
+  link="https://royalsociety.org/"
 %}
 
 {% endcapture %}
