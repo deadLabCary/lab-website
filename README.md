@@ -1,3 +1,5 @@
+Visit **[deadlabcary.github.io/lab-website](https://deadlabcary.github.io/lab-website)** 🚀
+
 # Lab website
 This is the public repository for the Disturbance Ecology and Decomposition (DEAD) lab's website at Cary Institute of Ecosystem Studies. The link to the website is in the repo description. The website itself was built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs).
 
