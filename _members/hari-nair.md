@@ -1,10 +1,10 @@
 ---
 name: Hari Nair
 image: images/photo.jpg
-role: phd
+role: affiliate
 links:
   email: 
   twitter: 
 ---
 
-Co-mentored at the Smithsonian Tropical Research Institute.
+Postdoctoral associate, co-mentored at the Smithsonian Tropical Research Institute.

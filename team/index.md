@@ -1,8 +1,8 @@
 ---
 title: Team
 nav:
-  order: 2
-  tooltip: About our team
+  order: 3
+  tooltip: Meet the lab!
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
@@ -18,17 +18,16 @@ Welcome to our team members!
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+## Affiliate researchers
 
-Some other writing here? We can also remove it.
-
-{% include section.html %}
+{% include list.html data="members" component="portrait" filters="role: affiliate, group: " %}
 
 ## Lab alumni
 
 Some writing here, but we can delete it also.
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: affiliate, group: " %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: alum" style="small" %}
