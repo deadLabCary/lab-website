@@ -1,7 +1,8 @@
 ---
 name: Hari Nair
 image: images/photo.jpg
-role: affiliate
+role: postdoc
+group: affiliate
 links:
   email: 
   twitter: 

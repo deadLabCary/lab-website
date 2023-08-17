@@ -20,14 +20,16 @@ Welcome to our team members!
 
 ## Affiliate researchers
 
-{% include list.html data="members" component="portrait" filters="role: affiliate, group: " %}
+{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: msc, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: programmer, group: affiliate" %}
 
 ## Lab alumni
 
-Some writing here, but we can delete it also.
-
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: affiliate, group: " %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: alum" style="small" %}

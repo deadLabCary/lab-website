@@ -4,7 +4,8 @@ aliases:
   - M.W. Chmielewski
   - Matthew W. Chmielewski
 image: images/team/mattchmielewski.jpeg
-role: affiliate
+role: postdoc
+group: affiliate
 links:
   home-page: mwchmiel.github.io
   orcid: 0000-0002-4467-4977
