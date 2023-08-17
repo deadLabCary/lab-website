@@ -4,15 +4,13 @@ subtitle: Disturbance Ecology and Decomposition at Cary Institute
 description: Some intriguing description
 header: images/primaryBG.jpeg
 footer: images/primaryBG.jpeg
+header-dark: false
+footer-dark: false
 
 # site social media and other links
 links:
   email: gorae@caryinstitute.org
-  orcid: 
-  google-scholar: Ec2_gMUAAAAJ
   github: deadLabCary
-  twitter: 
-  youtube: 
 
 ### jekyll settings
 
