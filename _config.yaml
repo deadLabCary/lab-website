@@ -4,8 +4,8 @@ subtitle: Disturbance Ecology and Decomposition at Cary Institute
 description: Some intriguing description
 header: images/primaryBG.jpeg
 footer: images/primaryBG.jpeg
-header-dark: false
-footer-dark: false
+header-dark: true
+footer-dark: true
 
 # site social media and other links
 links:
