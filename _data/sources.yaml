@@ -1,23 +1,149 @@
-- id: doi:10.1371/journal.pcbi.1007128
+- id: doi: 10.1111/nph.18856
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+  description:
+  image: 
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - lightning
+    - mortality
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi: 10.1038/s41477-022-01230-x
+  type: paper
+  image: https://www.nature.com/articles/s41477-022-01230-x/figures/3
+  tags: 
+  - mortality
+  - lightning
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi: 10.1002/ecy.3541
+  type: paper
+  image:
+  tags: 
+  - mortality
+  - lightning
+
+- id: doi: 10.1038/s41477-021-00879-0
+  type: paper
+  image: https://www.nature.com/articles/s41477-021-00879-0/figures/3
+  tags: 
+  - mortality
+  - lightning
+
+- id: doi: 10.1111/gcb.15227
+  type: paper
+  image: 
+  tags: 
+  - disturbance
+  - lightning
+
+- id: doi: 10.1111/1365-2745.13404
+  type: paper
+  description: Harper Prize finalist for best paper by an early career scientist
+  image: 
+  tags: 
+  - lightning
+  - model
+
+- id: doi: 10.1111/btp.12826
+  type: paper
+  image: 
+  tags: 
+  - lightning
+  - disturbance
+
+- id: doi: 10.1093/aesa/saaa015
+  type: paper
+  image: 
+  tags: 
+  - lightning
+  - decomposition
+
+- id: doi: 10.1111/nph.16260
+  type: paper
+  image: 
+  tags: 
+  - lightning
+  - mortality
+
+- id: doi: 10.1098/rspb.2019.1536
+  type: paper
+  image: 
+  tags: 
+  - decomposition
+
+- id: doi: 10.1111/1365-2435.13440
+  type: paper
+  image: 
+  tags: 
+  - decomposition
+
+- id: doi: 10.1111/btp.12709
+  type: paper
+  image: 
+  tags: 
+  - biodiversity
+
+- id: doi: 10.1007/s10021-019-00359-9
+  type: paper
+  image: 
+  tags: 
+  - biodiversity
+  - decomposition
+
+- id: doi: 10.1007/s10021-019-00341-5
+  type: paper
+  image: 
+  tags: 
+  - deadwood
+
+- id: doi: 10.1093/aesa/say026
+  type: paper
+  image: 
+  tags: 
+  - biodiversity
+
+- id: doi: 10.1111/1365-2435.13047
+  type: paper
+  image: 
+  tags: 
+  - decomposition
+
+- id: doi: 10.1002/ece3.3347
+  type: paper
+  image: 
+  tags: 
+  - lightning
+
+- id: doi: 10.1111/cobi.12949
+  type: paper
+  image: 
+  tags: 
+  - conservation
+
+- id: doi: 10.1002/ece3.3095
+  type: paper
+  image: 
+  tags: 
+  - lightning
+
+- id: doi: 10.25849/myrmecol.news_023:033
+  type: paper
+  image: 
+  tags: 
+  - biodiversity
+
+- id: doi: 10.1139/cjfr-2014-0380
+  type: paper
+  image: 
+  tags: 
+  - biodiversity
+
+- id: doi: 10.1139/cjfr-2015-0081
+  type: paper
+  image: 
+  tags: 
+  - lightning
+
+- id: doi: 10.3159/TORREY-D-13-00066.1
+  type: paper
+  image: 
+  tags: 
+  - deadwood
