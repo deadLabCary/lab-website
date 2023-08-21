@@ -5,15 +5,15 @@ nav:
   tooltip: 
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Check out our lab publications below!
+Check out our lab papers below!
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Tropical tree species differ in damage and mortality from lightning" style="rich" %}
 
 {% include section.html %}
 
