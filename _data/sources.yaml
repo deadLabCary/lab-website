@@ -1,6 +1,5 @@
 - id: doi:10.1111/nph.18856
   type: paper
-  description:
   image: 
   tags:
     - lightning
@@ -10,140 +9,140 @@
   type: paper
   image: https://www.nature.com/articles/s41477-022-01230-x/figures/3
   tags: 
-  - mortality
-  - lightning
+    - mortality
+    - lightning
 
 - id: doi:10.1002/ecy.3541
   type: paper
   image:
   tags: 
-  - mortality
-  - lightning
+    - mortality
+    - lightning
 
 - id: doi:10.1038/s41477-021-00879-0
   type: paper
   image: https://www.nature.com/articles/s41477-021-00879-0/figures/3
   tags: 
-  - mortality
-  - lightning
+    - mortality
+    - lightning
 
 - id: doi:10.1111/gcb.15227
   type: paper
   image: 
   tags: 
-  - disturbance
-  - lightning
+    - disturbance
+    - lightning
 
 - id: doi:10.1111/1365-2745.13404
   type: paper
   description: Harper Prize finalist for best paper by an early career scientist
   image: 
   tags: 
-  - lightning
-  - model
+    - lightning
+    - model
 
 - id: doi:10.1111/btp.12826
   type: paper
   image: 
   tags: 
-  - lightning
-  - disturbance
+    - lightning
+    - disturbance
 
 - id: doi:10.1093/aesa/saaa015
   type: paper
   image: 
   tags: 
-  - lightning
-  - decomposition
+    - lightning
+    - decomposition
 
 - id: doi:10.1111/nph.16260
   type: paper
   image: 
   tags: 
-  - lightning
-  - mortality
+    - lightning
+    - mortality
 
 - id: doi:10.1098/rspb.2019.1536
   type: paper
   image: 
   tags: 
-  - decomposition
+    - decomposition
 
 - id: doi:10.1111/1365-2435.13440
   type: paper
   image: 
   tags: 
-  - decomposition
+    - decomposition
 
 - id: doi:10.1111/btp.12709
   type: paper
   image: 
   tags: 
-  - biodiversity
+    - biodiversity
 
 - id: doi:10.1007/s10021-019-00359-9
   type: paper
   image: 
   tags: 
-  - biodiversity
-  - decomposition
+    - biodiversity
+    - decomposition
 
 - id: doi:10.1007/s10021-019-00341-5
   type: paper
   image: 
   tags: 
-  - deadwood
+    - deadwood
 
 - id: doi:10.1093/aesa/say026
   type: paper
   image: 
   tags: 
-  - biodiversity
+    - biodiversity
 
 - id: doi:10.1111/1365-2435.13047
   type: paper
   image: 
   tags: 
-  - decomposition
+    - decomposition
 
 - id: doi:10.1002/ece3.3347
   type: paper
   image: 
   tags: 
-  - lightning
+    - lightning
 
 - id: doi:10.1111/cobi.12949
   type: paper
   image: 
   tags: 
-  - conservation
+    - conservation
 
 - id: doi:10.1002/ece3.3095
   type: paper
   image: 
   tags: 
-  - lightning
+    - lightning
 
 - id: doi:10.25849/myrmecol.news_023:033
   type: paper
   image: 
   tags: 
-  - biodiversity
+    - biodiversity
 
 - id: doi:10.1139/cjfr-2014-0380
   type: paper
   image: 
   tags: 
-  - biodiversity
+    - biodiversity
 
 - id: doi:10.1139/cjfr-2015-0081
   type: paper
   image: 
   tags: 
-  - lightning
+    - lightning
 
 - id: doi:10.3159/TORREY-D-13-00066.1
   type: paper
   image: 
   tags: 
-  - deadwood
+    - deadwood
