@@ -10,6 +10,8 @@ There is extensive documentation from the template itself for how to edit all as
 
 Below are some quick instructions for easy updating.
 
-### Lab member pages
+### Lab member pages (Team)
 To update your own information or to add yourself to the team, create a new `.md` file for yourself in the `_members` folder using an existing member as an example. Your role can be any of those listed in `team/index.md` (but we can always add more!). Please also add a picture for yourself in the `images/team/` folder, and provide the relative link in your `.md` file.
 
+### Publications
+Updating the publications list is super easy thanks to a bot that the template has. At a minimum, all you need is the DOI of the publication. If you want to add more information like pictures or buttons to appear, then you can do that as well following the format described in the template documentation [here](https://greene-lab.gitbook.io/lab-website-template-docs/basics/citations#examples).
