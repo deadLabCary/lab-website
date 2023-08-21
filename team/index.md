@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Welcome to our team members!
+Members at the Cary Institute
 
 {% include section.html %}
 
@@ -20,7 +20,9 @@ Welcome to our team members!
 
 ## Affiliate researchers
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+Members at other institutions
+
+{% include list.html data="members" component="portrait" filters="role: pi, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: affiliate" %}
