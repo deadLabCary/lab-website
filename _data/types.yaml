@@ -18,6 +18,10 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+technician:
+  icon: fa-solid fa-magnifying-glass
+  description: Research technician
+
 msc:
   icon: fa-solid fa-user-graduate
   description: MSc Student

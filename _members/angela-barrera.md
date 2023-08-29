@@ -2,7 +2,7 @@
 name: Ángela Barrera
 aliases:
   - A. Barrera
-image: images/photo.jpg
+image: images/team/angela-barrera.png
 role: msc
 group: alum
 links:

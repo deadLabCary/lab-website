@@ -2,7 +2,7 @@
 name: Pablo Narváez
 aliases:
   - P. Narváez
-image: images/photo.jpg
+image: images/team/pablo-narvaez.png
 role: msc
 group: alum
 links:
