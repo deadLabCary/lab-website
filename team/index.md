@@ -14,6 +14,7 @@ Members at the Cary Institute
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: " %}
+{% include list.html data="members" component="portrait" filters="role: technician, group: " %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: " %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
@@ -25,6 +26,7 @@ Members at other institutions
 {% include list.html data="members" component="portrait" filters="role: pi, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: technician, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: affiliate" %}
@@ -34,6 +36,7 @@ Members at other institutions
 {% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: technician, group: alum" %}
 {% include list.html data="members" component="portrait" filters="role: msc, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
