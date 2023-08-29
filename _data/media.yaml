@@ -1,12 +1,12 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: One Mississippi...How Lightning Shapes the Climate
+  subtitle: NPR interview
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://media.npr.org/assets/img/2022/12/05/gettyimages-940296124-edit-d47e26f76e5b98c55f863fa9afdab05785d3f07d-s1600-c85.webp
+  link: https://www.npr.org/2022/12/05/1140778347/one-mississippi-how-lightning-shapes-the-climate
+  description: On today's episode, Evan Gora tells Aaron Scott about a few of his shocking discoveries in lightning research, and why Evan says he's developed a healthy respect for the hazards it poses, both to individual researchers and to the forests that life on Earth depends on.
+  repo:
   tags:
-    - resource
+    - interview
 
 - title: Cool Package
   subtitle: a subtitle
