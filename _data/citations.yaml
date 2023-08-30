@@ -1,113 +1,358 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1038/s41477-021-00879-0
+  title: Implications of size-dependent tree mortality for tropical forest carbon
+    dynamics
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Evan M. Gora
+  - Adriane Esquivel-Muelbert
+  publisher: Nature Plants
+  date: '2021-03-29'
+  link: https://doi.org/grz6sh
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://www.nature.com/articles/s41477-021-00879-0/figures/3
+  tags:
+  - mortality
+  - lightning
+- id: doi:10.1111/1365-2745.13404
+  title: A mechanistic and empirically supported lightning risk model for forest trees
+  authors:
+  - Evan M. Gora
+  - "Helene C. Muller\u2010Landau"
+  - Jeffrey C. Burchfield
+  - Phillip M. Bitzer
+  - Stephen P. Hubbell
+  - Stephen P. Yanoviak
+  publisher: Journal of Ecology
+  date: '2020-05-20'
+  link: https://doi.org/gg482q
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: Harper Prize finalist for best paper by an early career scientist
+  image: null
+  tags:
+  - lightning
+  - model
+- id: doi:10.1111/gcb.15227
+  title: "Pantropical geography of lightning\u2010caused disturbance and its implications\
+    \ for tropical forests"
+  authors:
+  - Evan M. Gora
+  - Jeffrey C. Burchfield
+  - "Helene C. Muller\u2010Landau"
+  - Phillip M. Bitzer
+  - Stephen P. Yanoviak
+  publisher: Global Change Biology
+  date: '2020-07-08'
+  link: https://doi.org/gg9wfm
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - disturbance
+  - lightning
+- id: doi:10.1093/aesa/saaa015
+  title: Lightning Damage Facilitates Beetle Colonization of Tropical Trees
+  authors:
+  - Brady P Parlato
+  - Evan M Gora
+  - Stephen P Yanoviak
+  publisher: Annals of the Entomological Society of America
+  date: '2020-07-05'
+  link: https://doi.org/gjjb8x
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+  - decomposition
+- id: doi:10.1111/btp.12826
+  title: "Lightning\u2010caused disturbance in the Peruvian Amazon"
+  authors:
+  - Evan M. Gora
+  - Stephen P. Yanoviak
+  publisher: Biotropica
+  date: '2020-07-23'
+  link: https://doi.org/gg563d
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+  - disturbance
+- id: doi:10.1111/nph.16260
+  title: Lightning is a major cause of large tree mortality in a lowland neotropical
+    forest
+  authors:
+  - Stephen P. Yanoviak
+  - Evan M. Gora
+  - Phillip M. Bitzer
+  - Jeffrey C. Burchfield
+  - "Helene C. Muller\u2010Landau"
+  - Matteo Detto
+  - Steven Paton
+  - Stephen P. Hubbell
+  publisher: New Phytologist
+  date: '2019-11-18'
+  link: https://doi.org/grkwfx
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+  - mortality
+- id: doi:10.1111/1365-2435.13440
+  title: 'Dispersal and nutrient limitations of decomposition above the forest floor:
+    Evidence from experimental manipulations of epiphytes and macronutrients'
+  authors:
+  - Evan M. Gora
+  - Jane M. Lucas
+  publisher: Functional Ecology
+  date: '2019-09-10'
+  link: https://doi.org/gsmsbz
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - decomposition
+- id: doi:10.1111/btp.12709
+  title: Do lianas shape ant communities in an early successional tropical forest?
+  authors:
+  - Benjamin J. Adams
+  - Evan M. Gora
+  - Michiel Breugel
+  - "Sergio Estrada\u2010Villegas"
+  - Stefan A. Schnitzer
+  - Jefferson S. Hall
+  - Stephen P. Yanoviak
+  publisher: Biotropica
+  date: '2019-10-11'
+  link: https://doi.org/gn48rt
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - biodiversity
+- id: doi:10.1098/rspb.2019.1536
+  title: Antibiotics as chemical warfare across multiple taxonomic domains and trophic
+    levels in brown food webs
+  authors:
+  - Jane M. Lucas
+  - Evan Gora
+  - Annika Salzberg
+  - Michael Kaspari
+  publisher: 'Proceedings of the Royal Society B: Biological Sciences'
+  date: '2019-09-25'
+  link: https://doi.org/gn5qm7
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - decomposition
+- id: doi:10.1007/s10021-019-00341-5
+  title: 'Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal
+    Variability'
+  authors:
+  - Evan M. Gora
+  - Riley C. Kneale
+  - Markku Larjavaara
+  - Helene C. Muller-Landau
+  publisher: Ecosystems
+  date: '2019-02-04'
+  link: https://doi.org/gjq3k2
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - deadwood
+- id: doi:10.1007/s10021-019-00359-9
+  title: Microbial Composition and Wood Decomposition Rates Vary with Microclimate
+    From the Ground to the Canopy in a Tropical Forest
+  authors:
+  - Evan M. Gora
+  - Jane M. Lucas
+  - Stephen P. Yanoviak
+  publisher: Ecosystems
+  date: '2019-03-19'
+  link: https://doi.org/gsmsb2
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - biodiversity
+  - decomposition
+- id: doi:10.1093/aesa/say026
+  title: 'A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants
+    (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)'
+  authors:
+  - Noah D Gripshover
+  - Stephen P Yanoviak
+  - Evan M Gora
+  publisher: Annals of the Entomological Society of America
+  date: '2018-07-30'
+  link: https://doi.org/gsmsb3
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - biodiversity
+- id: doi:10.1111/1365-2435.13047
+  title: "Decomposition of coarse woody debris in a long\u2010term litter manipulation\
+    \ experiment: A focus on nutrient availability"
+  authors:
+  - Evan M. Gora
+  - Emma J. Sayer
+  - Benjamin L. Turner
+  - Edmund V. J. Tanner
+  publisher: Functional Ecology
+  date: '2018-02-05'
+  link: https://doi.org/gc5vbm
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - decomposition
+- id: doi:10.1111/cobi.12949
+  title: A view of the global conservation job market and how to succeed in it
+  authors:
+  - Jane Lucas
+  - Evan Gora
+  - Alfonso Alonso
+  publisher: Conservation Biology
+  date: '2017-09-05'
+  link: https://doi.org/gsmsb5
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - conservation
+- id: doi:10.1002/ece3.3347
+  title: 'Effects of lightning on trees: A predictive model based on in situ electrical
+    resistivity'
+  authors:
+  - Evan M. Gora
+  - Phillip M. Bitzer
+  - Jeffrey C. Burchfield
+  - Stefan A. Schnitzer
+  - Stephen P. Yanoviak
+  publisher: Ecology and Evolution
+  date: '2017-09-12'
+  link: https://doi.org/gsmsb4
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+- id: doi:10.1002/ece3.3095
+  title: Quantification and identification of lightning damage in tropical forests
+  authors:
+  - Stephen P. Yanoviak
+  - Evan M. Gora
+  - Jeffrey M. Burchfield
+  - Phillip M. Bitzer
+  - Matteo Detto
+  publisher: Ecology and Evolution
+  date: '2017-06-02'
+  link: https://doi.org/gsmsb6
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+- id: doi:10.25849/MYRMECOL.NEWS_023:033
+  title: 'Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus
+    (De Geer, 1773) (Hymenoptera: Formicidae)'
+  authors:
+  - E.M. Gora
+  - N. Gripshover
+  - S.P. Yanoviak
+  publisher: The Austrian Society of Entomofaunistics
+  date: '2016-01-01'
+  link: https://doi.org/gsmsb7
+  orcid: 0000-0002-0537-5835
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1139/cjfr-2015-0081
+  title: "Direct effects of lightning in temperate forests: a review and preliminary\
+    \ survey in a hemlock\u2013hardwood forest of the northern United States"
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+  - Stephen P. Yanoviak
+  - Evan M. Gora
+  - Jennifer Fredley
+  - Phillip M. Bitzer
+  - Rose-Marie Muzika
+  - Walter P. Carson
+  publisher: Canadian Journal of Forest Research
+  date: '2015-10-01'
+  link: https://doi.org/f7s74q
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - lightning
+- id: doi:10.1139/cjfr-2014-0380
+  title: 'Electrical properties of temperate forest trees: a review and quantitative
+    comparison with vines'
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+  - Evan M. Gora
+  - Stephen P. Yanoviak
+  publisher: Canadian Journal of Forest Research
+  date: '2015-03-01'
+  link: https://doi.org/f6738r
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  tags:
+  - biodiversity
+- id: doi:10.3159/torrey-d-13-00066.1
+  title: Patterns of coarse woody debris volume among 18 late-successional and mature
+    forest stands in Pennsylvania<sup>1</sup>
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2019-06-24'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Evan M. Gora
+  - Loretta L. Battaglia
+  - Henry B. Schumacher
+  - Walter P. Carson
+  publisher: The Journal of the Torrey Botanical Society
+  date: '2014-04-01'
+  link: https://doi.org/f6snbp
+  orcid: 0000-0002-0537-5835
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/nph.18856
@@ -168,282 +413,6 @@
   - lightning
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1038/s41477-021-00879-0
-  title: Implications of size-dependent tree mortality for tropical forest carbon
-    dynamics
-  authors:
-  - Evan M. Gora
-  - Adriane Esquivel-Muelbert
-  publisher: Nature Plants
-  date: '2021-03-29'
-  link: https://doi.org/grz6sh
-  type: paper
-  image: https://www.nature.com/articles/s41477-021-00879-0/figures/3
-  tags:
-  - mortality
-  - lightning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/gcb.15227
-  title: "Pantropical geography of lightning\u2010caused disturbance and its implications\
-    \ for tropical forests"
-  authors:
-  - Evan M. Gora
-  - Jeffrey C. Burchfield
-  - "Helene C. Muller\u2010Landau"
-  - Phillip M. Bitzer
-  - Stephen P. Yanoviak
-  publisher: Global Change Biology
-  date: '2020-07-08'
-  link: https://doi.org/gg9wfm
-  type: paper
-  image: null
-  tags:
-  - disturbance
-  - lightning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/1365-2745.13404
-  title: A mechanistic and empirically supported lightning risk model for forest trees
-  authors:
-  - Evan M. Gora
-  - "Helene C. Muller\u2010Landau"
-  - Jeffrey C. Burchfield
-  - Phillip M. Bitzer
-  - Stephen P. Hubbell
-  - Stephen P. Yanoviak
-  publisher: Journal of Ecology
-  date: '2020-05-20'
-  link: https://doi.org/gg482q
-  type: paper
-  description: Harper Prize finalist for best paper by an early career scientist
-  image: null
-  tags:
-  - lightning
-  - model
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/btp.12826
-  title: "Lightning\u2010caused disturbance in the Peruvian Amazon"
-  authors:
-  - Evan M. Gora
-  - Stephen P. Yanoviak
-  publisher: Biotropica
-  date: '2020-07-23'
-  link: https://doi.org/gg563d
-  type: paper
-  image: null
-  tags:
-  - lightning
-  - disturbance
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/aesa/saaa015
-  title: Lightning Damage Facilitates Beetle Colonization of Tropical Trees
-  authors:
-  - Brady P Parlato
-  - Evan M Gora
-  - Stephen P Yanoviak
-  publisher: Annals of the Entomological Society of America
-  date: '2020-07-05'
-  link: https://doi.org/gjjb8x
-  type: paper
-  image: null
-  tags:
-  - lightning
-  - decomposition
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/nph.16260
-  title: Lightning is a major cause of large tree mortality in a lowland neotropical
-    forest
-  authors:
-  - Stephen P. Yanoviak
-  - Evan M. Gora
-  - Phillip M. Bitzer
-  - Jeffrey C. Burchfield
-  - "Helene C. Muller\u2010Landau"
-  - Matteo Detto
-  - Steven Paton
-  - Stephen P. Hubbell
-  publisher: New Phytologist
-  date: '2019-11-18'
-  link: https://doi.org/grkwfx
-  type: paper
-  image: null
-  tags:
-  - lightning
-  - mortality
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1098/rspb.2019.1536
-  title: Antibiotics as chemical warfare across multiple taxonomic domains and trophic
-    levels in brown food webs
-  authors:
-  - Jane M. Lucas
-  - Evan Gora
-  - Annika Salzberg
-  - Michael Kaspari
-  publisher: 'Proceedings of the Royal Society B: Biological Sciences'
-  date: '2019-09-25'
-  link: https://doi.org/gn5qm7
-  type: paper
-  image: null
-  tags:
-  - decomposition
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/1365-2435.13440
-  title: 'Dispersal and nutrient limitations of decomposition above the forest floor:
-    Evidence from experimental manipulations of epiphytes and macronutrients'
-  authors:
-  - Evan M. Gora
-  - Jane M. Lucas
-  publisher: Functional Ecology
-  date: '2019-09-10'
-  link: https://doi.org/gsmsbz
-  type: paper
-  image: null
-  tags:
-  - decomposition
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/btp.12709
-  title: Do lianas shape ant communities in an early successional tropical forest?
-  authors:
-  - Benjamin J. Adams
-  - Evan M. Gora
-  - Michiel Breugel
-  - "Sergio Estrada\u2010Villegas"
-  - Stefan A. Schnitzer
-  - Jefferson S. Hall
-  - Stephen P. Yanoviak
-  publisher: Biotropica
-  date: '2019-10-11'
-  link: https://doi.org/gn48rt
-  type: paper
-  image: null
-  tags:
-  - biodiversity
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/s10021-019-00359-9
-  title: Microbial Composition and Wood Decomposition Rates Vary with Microclimate
-    From the Ground to the Canopy in a Tropical Forest
-  authors:
-  - Evan M. Gora
-  - Jane M. Lucas
-  - Stephen P. Yanoviak
-  publisher: Ecosystems
-  date: '2019-03-19'
-  link: https://doi.org/gsmsb2
-  type: paper
-  image: null
-  tags:
-  - biodiversity
-  - decomposition
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1007/s10021-019-00341-5
-  title: 'Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal
-    Variability'
-  authors:
-  - Evan M. Gora
-  - Riley C. Kneale
-  - Markku Larjavaara
-  - Helene C. Muller-Landau
-  publisher: Ecosystems
-  date: '2019-02-04'
-  link: https://doi.org/gjq3k2
-  type: paper
-  image: null
-  tags:
-  - deadwood
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/aesa/say026
-  title: 'A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants
-    (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)'
-  authors:
-  - Noah D Gripshover
-  - Stephen P Yanoviak
-  - Evan M Gora
-  publisher: Annals of the Entomological Society of America
-  date: '2018-07-30'
-  link: https://doi.org/gsmsb3
-  type: paper
-  image: null
-  tags:
-  - biodiversity
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/1365-2435.13047
-  title: "Decomposition of coarse woody debris in a long\u2010term litter manipulation\
-    \ experiment: A focus on nutrient availability"
-  authors:
-  - Evan M. Gora
-  - Emma J. Sayer
-  - Benjamin L. Turner
-  - Edmund V. J. Tanner
-  publisher: Functional Ecology
-  date: '2018-02-05'
-  link: https://doi.org/gc5vbm
-  type: paper
-  image: null
-  tags:
-  - decomposition
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/ece3.3347
-  title: 'Effects of lightning on trees: A predictive model based on in situ electrical
-    resistivity'
-  authors:
-  - Evan M. Gora
-  - Phillip M. Bitzer
-  - Jeffrey C. Burchfield
-  - Stefan A. Schnitzer
-  - Stephen P. Yanoviak
-  publisher: Ecology and Evolution
-  date: '2017-09-12'
-  link: https://doi.org/gsmsb4
-  type: paper
-  image: null
-  tags:
-  - lightning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1111/cobi.12949
-  title: A view of the global conservation job market and how to succeed in it
-  authors:
-  - Jane Lucas
-  - Evan Gora
-  - Alfonso Alonso
-  publisher: Conservation Biology
-  date: '2017-09-05'
-  link: https://doi.org/gsmsb5
-  type: paper
-  image: null
-  tags:
-  - conservation
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1002/ece3.3095
-  title: Quantification and identification of lightning damage in tropical forests
-  authors:
-  - Stephen P. Yanoviak
-  - Evan M. Gora
-  - Jeffrey M. Burchfield
-  - Phillip M. Bitzer
-  - Matteo Detto
-  publisher: Ecology and Evolution
-  date: '2017-06-02'
-  link: https://doi.org/gsmsb6
-  type: paper
-  image: null
-  tags:
-  - lightning
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.25849/myrmecol.news_023:033
   title: 'Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus
     (De Geer, 1773) (Hymenoptera: Formicidae)'
@@ -458,40 +427,6 @@
   image: null
   tags:
   - biodiversity
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1139/cjfr-2014-0380
-  title: 'Electrical properties of temperate forest trees: a review and quantitative
-    comparison with vines'
-  authors:
-  - Evan M. Gora
-  - Stephen P. Yanoviak
-  publisher: Canadian Journal of Forest Research
-  date: '2015-03-01'
-  link: https://doi.org/f6738r
-  type: paper
-  image: null
-  tags:
-  - biodiversity
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1139/cjfr-2015-0081
-  title: "Direct effects of lightning in temperate forests: a review and preliminary\
-    \ survey in a hemlock\u2013hardwood forest of the northern United States"
-  authors:
-  - Stephen P. Yanoviak
-  - Evan M. Gora
-  - Jennifer Fredley
-  - Phillip M. Bitzer
-  - Rose-Marie Muzika
-  - Walter P. Carson
-  publisher: Canadian Journal of Forest Research
-  date: '2015-10-01'
-  link: https://doi.org/f7s74q
-  type: paper
-  image: null
-  tags:
-  - lightning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3159/TORREY-D-13-00066.1
