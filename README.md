@@ -8,9 +8,12 @@ Lab icon: CreativeCommons (CC BY 4.0) accessed from [iconfinder.com](https://www
 ## Updating information
 Editing the website is fairly straightforward. At a basic level, whenever a commit is pushed to the `main` branch, there are underlying GitHub Actions that are triggered to run in order to render the website, which itself comes from the `gh-pages` branch. You can check the status of each build in the "Actions" tab at the top of the repository.
 
-There is extensive documentation from the template itself for how to edit all aspects of the website, which can be found at the link above. The repo template itself can be found [here](https://github.com/greenelab/lab-website-template). 
+There is extensive documentation from the template itself for how to edit all aspects of the website, which can be found at the template link at top. The repo template itself can be found [here](https://github.com/greenelab/lab-website-template). 
 
 Below are some quick instructions for easy updating.
+
+### Blog (lab news and updates)
+To make a new post, create a new `.md` file in the `_posts/` folder using the styling convention of `yyyy-mm-dd-some-short-title.md`. For a quickstart method, simply copy the template used from a previous post. Otherwise, you can add more formatting using the tips from the general documentation linked at top.
 
 ### Lab member pages (Team)
 To update your own information or to add yourself to the team, create a new `.md` file for yourself in the `_members` folder using an existing member as an example. Your role can be any of those listed in `team/index.md` (but we can always add more!). Please also add a picture for yourself in the `images/team/` folder, and provide the relative link in your `.md` file.
