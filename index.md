@@ -11,12 +11,12 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-See lab updates and follow our recent activity (this text should be changed)
+Follow our news and happenings from the lab.
 
 {%
   include button.html
   link="news"
-  text="Follow happenings in the lab"
+  text="Go to news"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,7 +26,7 @@ See lab updates and follow our recent activity (this text should be changed)
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/main/picUpdate.png"
   link="news"
   title="Lab updates"
   text=text
@@ -34,7 +34,7 @@ See lab updates and follow our recent activity (this text should be changed)
 
 {% capture text %}
 
-Our lab focuses on a number of things, from lightning mortality to investigating deadwood and decomposition. This should probably link to topics page.
+Our lab has a number of ongoing projects, from lightning mortality to investigating deadwood and decomposition. Check them out here!
 
 {%
   include button.html
@@ -49,7 +49,7 @@ Our lab focuses on a number of things, from lightning mortality to investigating
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/main/picProjects.jpeg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -59,7 +59,7 @@ Our lab focuses on a number of things, from lightning mortality to investigating
 
 {% capture text %}
 
-We are a group of ecologists, scientists, and ???. Together, we bring scientific and research experience spanning the entire globe.
+We are a group of ecologists, scientists, and life-long students. Together, we combine our scientific and research experience from across the globe to help us investigate and better understand the natural world around us.
 
 {%
   include button.html
@@ -74,7 +74,7 @@ We are a group of ecologists, scientists, and ???. Together, we bring scientific
 
 {%
   include feature.html
-  image="images/samp.png"
+  image="images/main/picTeam.jpeg"
   link="team"
   title="Our Team"
   text=text
