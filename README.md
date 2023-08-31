@@ -12,7 +12,7 @@ There is extensive documentation from the template itself for how to edit all as
 
 Below are some quick instructions for easy updating.
 
-### Blog (lab news and updates)
+### Posts (lab news and updates)
 To make a new post, create a new `.md` file in the `_posts/` folder using the styling convention of `yyyy-mm-dd-some-short-title.md`. For a quickstart method, simply copy the template used from a previous post. Otherwise, you can add more formatting using the tips from the general documentation linked at top.
 
 ### Lab member pages (Team)
