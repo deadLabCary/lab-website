@@ -1,6 +1,6 @@
 ---
 name: Evan Gora
-image: images/team/evangora.png
+image: images/team/evangora.jpg
 role: pi
 aliases:
   - E.M. Gora

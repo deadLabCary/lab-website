@@ -89,6 +89,12 @@ orcid:
   text: ORCID
   tooltip: ORCID
   link: https://orcid.org/$VALUE
+  
+research-gate:
+  icon: fa-brands fa-researchgate
+  text: ResearchGate
+  tooltip: ResearchGate
+  link: https://www.researchgate.net/profile/$VALUE
 
 google-scholar:
   icon: fa-brands fa-google
