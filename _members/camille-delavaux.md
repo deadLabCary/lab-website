@@ -1,7 +1,7 @@
 ---
 name: Camille Delavaux
 image: images/team/camille-delavaux.jpeg
-role: 
+role: postdoc
 group: alum
 aliases:
   - C. Delavaux
