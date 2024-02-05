@@ -1,5 +1,74 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1098/rspb.2023.1290
+  title: Competition and habitat availability interact to structure arboreal ant communities
+    across scales of ecological organization
+  authors:
+  - Benjamin J. Adams
+  - Evan M. Gora
+  - Matina C. Donaldson-Matasci
+  - Elva J. H. Robinson
+  - Scott Powell
+  publisher: 'Proceedings of the Royal Society B: Biological Sciences'
+  date: '2023-09-27'
+  link: https://doi.org/gtg2fg
+  orcid: 0000-0002-0537-5835
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10021-023-00874-w
+  title: Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer
+    Communities, and Slower Decomposition
+  authors:
+  - "\xC1ngela M. Barrera-Bello"
+  - Jane M. Lucas
+  - Evan M. Gora
+  publisher: Ecosystems
+  date: '2023-09-15'
+  link: https://doi.org/gtg2fh
+  orcid: 0000-0002-0537-5835
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/nph.18856
+  title: "Lianas increase lightning\u2010caused disturbance severity in a tropical\
+    \ forest"
+  authors:
+  - Evan M. Gora
+  - Stefan A. Schnitzer
+  - Phillip M. Bitzer
+  - Jeffrey C. Burchfield
+  - Cesar Gutierrez
+  - Stephen P. Yanoviak
+  publisher: New Phytologist
+  date: '2023-03-23'
+  link: https://doi.org/gr2bp7
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/pubs/nph23.png
+  tags:
+  - lightning
+  - mortality
+- id: doi:10.1038/s41477-022-01230-x
+  title: Tropical tree species differ in damage and mortality from lightning
+  authors:
+  - Jeannine H. Richards
+  - Evan M. Gora
+  - Cesar Gutierrez
+  - Jeffrey C. Burchfield
+  - Philip M. Bitzer
+  - Stephen P. Yanoviak
+  publisher: Nature Plants
+  date: '2022-08-22'
+  link: https://doi.org/gqrmqx
+  orcid: 0000-0002-0537-5835
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://www.nature.com/articles/s41477-022-01230-x/figures/3
+  tags:
+  - mortality
+  - lightning
 - id: doi:10.1038/s41477-021-00879-0
   title: Implications of size-dependent tree mortality for tropical forest carbon
     dynamics
@@ -135,7 +204,7 @@
   authors:
   - Benjamin J. Adams
   - Evan M. Gora
-  - Michiel Breugel
+  - Michiel van Breugel
   - "Sergio Estrada\u2010Villegas"
   - Stefan A. Schnitzer
   - Jefferson S. Hall
@@ -355,45 +424,6 @@
   orcid: 0000-0002-0537-5835
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1111/nph.18856
-  title: "Lianas increase lightning\u2010caused disturbance severity in a tropical\
-    \ forest"
-  authors:
-  - Evan M. Gora
-  - Stefan A. Schnitzer
-  - Phillip M. Bitzer
-  - Jeffrey C. Burchfield
-  - Cesar Gutierrez
-  - Stephen P. Yanoviak
-  publisher: New Phytologist
-  date: '2023-03-23'
-  link: https://doi.org/gr2bp7
-  type: paper
-  image: images/pubs/nph23.png
-  tags:
-  - lightning
-  - mortality
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1038/s41477-022-01230-x
-  title: Tropical tree species differ in damage and mortality from lightning
-  authors:
-  - Jeannine H. Richards
-  - Evan M. Gora
-  - Cesar Gutierrez
-  - Jeffrey C. Burchfield
-  - Philip M. Bitzer
-  - Stephen P. Yanoviak
-  publisher: Nature Plants
-  date: '2022-08-22'
-  link: https://doi.org/gqrmqx
-  type: paper
-  image: https://www.nature.com/articles/s41477-022-01230-x/figures/3
-  tags:
-  - mortality
-  - lightning
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1002/ecy.3541
   title: The contributions of lightning to biomass turnover, gap formation and plant
     mortality in a tropical forest
