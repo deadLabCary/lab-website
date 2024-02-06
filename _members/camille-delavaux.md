@@ -1,8 +1,8 @@
 ---
 name: Camille Delavaux
 image: images/team/camille-delavaux.jpeg
-role: postdoc
-group: alum
+role: pi
+group: affiliate
 aliases:
   - C. Delavaux
 links:
