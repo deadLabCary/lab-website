@@ -15,4 +15,6 @@ links:
   twitter:
 ---
 
+Affiliate researcher 2023 - present
+
 Postdoctoral associate, co-mentored with University of Louisville, Kentucky
