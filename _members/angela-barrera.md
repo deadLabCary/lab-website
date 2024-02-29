@@ -3,7 +3,7 @@ name: Ángela Marcela Barrera-Bello
 aliases:
   - Á.M. Barrera-Bello
 image: images/team/angela-barrera-bello.jpeg
-role: intern
+role: alum-intern
 group: alum
 links:
   google-scholar: e6JHseMAAAAJ&hl

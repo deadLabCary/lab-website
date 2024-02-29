@@ -1,7 +1,7 @@
 ---
 name: Camille Delavaux
 image: images/team/camille-delavaux.jpeg
-role: postdoc
+role: lead-scientist
 group: affiliate
 aliases:
   - C. Delavaux

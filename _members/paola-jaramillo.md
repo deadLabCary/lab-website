@@ -2,8 +2,8 @@
 name: Paola Jaramillo
 aliases:
   - P. Jaramillo
-image: images/photo.jpg
-role: msc
+image: 
+role: alum-intern
 group: alum
 links:
   orcid: 
@@ -13,4 +13,4 @@ links:
   twitter: 
 ---
 
-Paola was a ___ from 20XX-20YY.
+Paola was a ___ from 20XX-20YY and is currently pursuing her PhD at ...

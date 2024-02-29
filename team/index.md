@@ -7,9 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Members at the Cary Institute
-
 {% include section.html %}
+
+## Cary and Smithsonian scientists
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: " %}
@@ -20,9 +20,7 @@ Members at the Cary Institute
 {% include list.html data="members" component="portrait" filters="role: technician, group: " %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
 
-## Affiliate researchers
-
-Members at other institutions
+## Affiliate scientists
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: postdoc, group: affiliate" %}
@@ -31,17 +29,11 @@ Members at other institutions
 {% include list.html data="members" component="portrait" filters="role: msc, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: affiliate" %}
 {% include list.html data="members" component="portrait" filters="role: programmer, group: affiliate" %}
+{% include list.html data="members" component="portrait" filters="role: lead-scientist, group: affiliate" %}
 
 ## Lab alumni
 
-{% include list.html data="members" component="portrait" filters="role: pi, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: phd, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: msc, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: intern, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: technician, group: alum" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: programmer, group: alum" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: alum-intern, group: alum" style="small" %}
 
 {% include section.html %}
 

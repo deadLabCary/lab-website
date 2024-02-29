@@ -3,7 +3,7 @@ name: Pablo Narváez
 aliases:
   - P. Narváez
 image: images/team/pablo-narvaez.jpeg
-role: msc
+role: alum-intern
 group: alum
 links:
   orcid: 0009-0004-3094-4309

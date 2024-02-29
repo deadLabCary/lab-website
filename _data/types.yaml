@@ -7,35 +7,43 @@ pi:
   description: Principal Investigator
 
 affiliate:
-  icon: fa-solid fa-globe
+  icon: fa-solid fa-microscope
   description: Affiliate
 
 postdoc:
-  icon: fa-solid fa-glasses
+  icon: fa-solid fa-microscope
   description: Postdoctoral Researcher
 
 phd:
-  icon: fa-solid fa-graduation-cap
+  icon: fa-solid fa-microscope
   description: PhD Student
 
 msc:
-  icon: fa-solid fa-user-graduate
+  icon: fa-solid fa-microscope
   description: MSc Student
 
 undergrad:
-  icon: fa-solid fa-university
+  icon: fa-solid fa-microscope
   description: Undergraduate Student
 
 intern:
-  icon: fa-solid fa-briefcase
+  icon: fa-solid fa-microscope
   description: Research intern
 
 technician:
-  icon: fa-solid fa-magnifying-glass
+  icon: fa-solid fa-microscope
   description: Research technician
 
+lead-scientist:
+  icon: fa-solid fa-microscope
+  description: Lead Scientist
+
+alum-intern:
+  icon: fa-solid fa-user-graduate
+  description: Research intern
+
 programmer:
-  icon: fa-solid fa-code
+  icon: fa-solid fa-microscope
   description: Programmer
 
 mascot:
