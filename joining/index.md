@@ -11,7 +11,9 @@ nav:
 There are no current openings, but see below!
 
 ## Other interests
-Do you have questions about our research or are you interested in working with us but there are no current open positions? Please feel free to reach out! You can contact Evan using the email (preferred) below, or check out our [scientists](https://deadlabcary.github.io/lab-website/team/) and specific [research projects](https://deadlabcary.github.io/lab-website/projects/).
+Do you have questions about our research? Are you interested in working with us but there are no current open positions? 
+
+Please feel free to reach out! You can contact Evan using the email below (preferred), or check out our [scientists](https://deadlabcary.github.io/lab-website/team/) and specific [research projects](https://deadlabcary.github.io/lab-website/projects/).
 
 {%
   include button.html
