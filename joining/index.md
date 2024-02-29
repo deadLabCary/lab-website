@@ -1,13 +1,17 @@
 ---
-title: Contact
+title: Join us
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 6
+  tooltip: 
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Join the lab!
 
-Want to work with us? Have questions about our research? Please reach out!
+## Available positions
+There are no current openings, but see below!
+
+## Other interests
+Do you have questions about our research or are you interested in working with us but there are no current open positions? Please feel free to reach out! You can contact Evan using the email (preferred) below, or check out our [scientists](https://deadlabcary.github.io/lab-website/team/) and specific [research projects](https://deadlabcary.github.io/lab-website/projects/).
 
 {%
   include button.html
@@ -45,7 +49,7 @@ Want to work with us? Have questions about our research? Please reach out!
 {%
   include figure.html
   image="images/contact/pic2.jpeg"
-  caption="Lightning-scarred tree"
+  caption="Tree decomposition"
 %}
 
 {% endcapture %}
@@ -55,15 +59,12 @@ Want to work with us? Have questions about our research? Please reach out!
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Some writing here
 {% endcapture %}
 
 {% capture col2 %}
-Do we want to keep this?
 {% endcapture %}
 
 {% capture col3 %}
-We can remove this if we don't want it.
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

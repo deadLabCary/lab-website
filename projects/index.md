@@ -1,8 +1,8 @@
 ---
-title: Media
+title: Projects
 nav:
-  order: 4
-  tooltip: Our lab in the world!
+  order: 2
+  tooltip: Research projects
 ---
 
 # {% include icon.html icon="fa-solid fa-microphone" %}Media
