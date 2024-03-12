@@ -1,7 +1,7 @@
 ---
-name: Giselle Biem
+name: Gisele Biem Mori
 aliases:
-  - G. Biem
+  - G.B. Mori
 image: 
 role: postdoc
 group: 
