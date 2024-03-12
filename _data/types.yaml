@@ -28,11 +28,11 @@ undergrad:
 
 intern:
   icon: fa-solid fa-microscope
-  description: Research intern
+  description: Research Intern
 
 technician:
   icon: fa-solid fa-microscope
-  description: Research technician
+  description: Research Technician
 
 lead-scientist:
   icon: fa-solid fa-microscope
@@ -40,7 +40,7 @@ lead-scientist:
 
 alum-intern:
   icon: fa-solid fa-user-graduate
-  description: Research intern
+  description: Research Intern
 
 programmer:
   icon: fa-solid fa-microscope
