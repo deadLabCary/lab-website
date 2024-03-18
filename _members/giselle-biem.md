@@ -7,6 +7,7 @@ role: postdoc
 group: 
 links:
   research-gate: Gisele-Biem-Mori
+  google-scholar: I_o4EkoAAAAJ&hl
 ---
 
 I’m a biologist from Brazil. I graduated from the São Paulo State University (UNESP Rio Claro, 2010) where I also did my Master’s degree in Botany (2014), and I have a PhD in Ecology from the National Institute for Amazon Research (INPA Manaus, 2019) with an internship at the Wageningen University (WUR, The Netherlands).
