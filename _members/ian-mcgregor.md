@@ -3,7 +3,7 @@ name: Ian McGregor
 aliases:
   - Ian R. McGregor
   - I.R. McGregor
-image: images/team/ian-mcgregor.jpg
+image: images/team/ian-mcgregor.png
 role: postdoc
 links:
   orcid: 0000-0002-5763-021X
