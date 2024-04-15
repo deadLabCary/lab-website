@@ -44,18 +44,18 @@
 <link rel="icon" href="/lab-website/images/icon.png">
 
 <meta name="title" content="News">
-<meta name="description" content="Disturbance Ecology and Decomposition. Some intriguing description">
+<meta name="description" content="Disturbance Ecology and Decomposition. ">
 
 <meta property="og:title" content="News">
 <meta property="og:site_title" content="DEAD Lab">
-<meta property="og:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="og:url" content="">
+<meta property="og:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="og:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="og:image" content="/lab-website/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="News">
-<meta property="twitter:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="twitter:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/lab-website/images/share.png">
 
@@ -70,17 +70,17 @@
       "@type": "WebSite",
     
     "name": "News",
-    "description": "Disturbance Ecology and Decomposition. Some intriguing description",
+    "description": "Disturbance Ecology and Decomposition. ",
     "headline": "News",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/lab-website/images/icon.png" }
     },
-    "url": ""
+    "url": "https://deadlabcary.github.io/lab-website"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/lab-website/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://deadlabcary.github.io/lab-website/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +90,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -353,6 +353,8 @@
 
   <script src="/lab-website/_scripts/site-search.js"></script>
 
+  <script src="/lab-website/_scripts/table-wrap.js"></script>
+
   <script src="/lab-website/_scripts/tooltip.js"></script>
 
 
@@ -377,12 +379,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>DEAD Lab</span>
+          <span class="title">DEAD Lab</span>
         
         
-          <span>Disturbance Ecology and Decomposition</span>
+          <span class="subtitle">Disturbance Ecology and Decomposition</span>
         
       </span>
     
@@ -418,6 +420,12 @@
       
     
       
+        <a href="/lab-website/photos/" data-tooltip="Lab photos">
+          Photos
+        </a>
+      
+    
+      
         <a href="/lab-website/team/" data-tooltip="Meet the lab!">
           Team
         </a>
@@ -437,11 +445,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -453,10 +458,10 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="news-and-updates">
-<i class="icon fa-solid fa-newspaper"></i>News and updates</h1>
+    <h1 id="-annual-summaries-and-haphazard-updates">
+<i class="icon fa-solid fa-newspaper"></i> Annual summaries and haphazard updates</h1>
 
-<p>Check out updates from our lab below, including dispatches from the field, new members, and other general research news.</p>
+<p>Check out updates from our lab below, including dispatches from the field, new members, and other general research news. Be sure to check back each summer for a more in-depth look at what the lab has been up to over the previous year!</p>
   </section>
 
   
@@ -477,9 +482,17 @@
   </button>
 </div>
 
-<div class="tags" data-link="/lab-website/news/">
+<div class="tags" data-link="https://deadlabcary.github.io/lab-website/news/">
     
-      <a href="/lab-website/news/?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
+      <a href="https://deadlabcary.github.io/lab-website/news/?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
+      </a>
+    
+      <a href="https://deadlabcary.github.io/lab-website/news/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+        medicine
+      </a>
+    
+      <a href="https://deadlabcary.github.io/lab-website/news/?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
         updates
       </a>
     
@@ -487,12 +500,18 @@
 
 <div class="search-info"></div>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/lab-website/2023/08/16/upcoming-research.html">Grants and upcoming research</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/lab-website/2023/08/16/upcoming-research.html">Grants and upcoming research</a>
+
+      <div class="post-info">
   
     
     
@@ -538,7 +557,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>March 28, 2024</span>
+      <span>April 15, 2024</span>
     </span>
   
 </div>
@@ -547,9 +566,9 @@
   
 
 
-  <div class="tags" data-link="/lab-website/blog">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/blog">
     
-      <a href="/lab-website/blog?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
+      <a href="https://deadlabcary.github.io/lab-website/blog?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
         updates
       </a>
     
@@ -559,24 +578,32 @@
 
 
 
-  
-  
-  <p data-search="Open full post for hyperlinks  There are a lot of exciting  upcoming things in the lab  In the last couple months  Evan has had a few proposals funded  including  a NASA project looking at using AI to detect tree flowering phenology  a major project from NSF that will investigate mortality of large tropical trees  See an overview of the project in a recent Cary news brief Stay tuned for some exciting things in the near future ">
-    Open full post for hyperlinks. There are a lot of exciting, upcoming things in the lab! In the last couple months, Evan has had a few proposals funded, including
+      
+      
+      <p data-search="Open full post for hyperlinks  There are a lot of exciting  upcoming things in the lab  In the last couple months  Evan has had a few proposals funded  including  a NASA project looking at using AI to detect tree flowering phenology  a major project from NSF that will investigate mortality of large tropical trees  See an overview of the project in a recent Cary news brief Stay tuned for some exciting things in the near future ">
+        Open full post for hyperlinks. There are a lot of exciting, upcoming things in the lab! In the last couple months, Evan has had a few proposals funded, including
 
   a NASA project looking at using AI to detect tree flowering phenology
   a major project from NSF that will investigate mortality of large tropical trees. See an overview of the project in a recent Cary news brief.
 
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/lab-website/2023/07/11/new-position.html">New Assistant Scientist!</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/lab-website/2023/07/11/new-position.html">New Assistant Scientist!</a>
+
+      <div class="post-info">
   
     
     
@@ -622,7 +649,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>March 28, 2024</span>
+      <span>April 15, 2024</span>
     </span>
   
 </div>
@@ -631,9 +658,9 @@
   
 
 
-  <div class="tags" data-link="/lab-website/blog">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/blog">
     
-      <a href="/lab-website/blog?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
+      <a href="https://deadlabcary.github.io/lab-website/blog?search=%22tag:%20updates%22" class="tag" data-tooltip='Show items with the tag "updates"'>
         updates
       </a>
     
@@ -643,12 +670,88 @@
 
 
 
-  
-  
-  <p data-search="Open full post for hyperlinks  Congratulations to Evan for his onboarding as a new Assistant Scientist at Cary Institute  Check out his new staff page on the Cary website ">
-    Open full post for hyperlinks. Congratulations to Evan for his onboarding as a new Assistant Scientist at Cary Institute! Check out his new staff page on the Cary website.
+      
+      
+      <p data-search="Open full post for hyperlinks  Congratulations to Evan for his onboarding as a new Assistant Scientist at Cary Institute  Check out his new staff page on the Cary website ">
+        Open full post for hyperlinks. Congratulations to Evan for his onboarding as a new Assistant Scientist at Cary Institute! Check out his new staff page on the Cary website.
 
-  </p>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
+
+    
+      <a href="/lab-website/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
+        <img src="/lab-website/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="post-excerpt-text">
+      <a href="/lab-website/2023/02/23/example-post-3.html">Example post 3</a>
+
+      <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>john-doe</span>
+      </span>
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>February 23, 2023</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>April 15, 2024</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/blog">
+    
+      <a href="https://deadlabcary.github.io/lab-website/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
+      </a>
+    
+      <a href="https://deadlabcary.github.io/lab-website/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+        medicine
+      </a>
+    
+  </div>
+
+
+
+
+
+      
+      
+      <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+      </p>
+    </div>
+  </div>
 </div>
   </section>
 

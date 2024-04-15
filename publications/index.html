@@ -44,18 +44,18 @@
 <link rel="icon" href="/lab-website/images/icon.png">
 
 <meta name="title" content="Publications">
-<meta name="description" content="Disturbance Ecology and Decomposition. Some intriguing description">
+<meta name="description" content="Disturbance Ecology and Decomposition. ">
 
 <meta property="og:title" content="Publications">
 <meta property="og:site_title" content="DEAD Lab">
-<meta property="og:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="og:url" content="">
+<meta property="og:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="og:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="og:image" content="/lab-website/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Publications">
-<meta property="twitter:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="twitter:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/lab-website/images/share.png">
 
@@ -70,17 +70,17 @@
       "@type": "WebSite",
     
     "name": "Publications",
-    "description": "Disturbance Ecology and Decomposition. Some intriguing description",
+    "description": "Disturbance Ecology and Decomposition. ",
     "headline": "Publications",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/lab-website/images/icon.png" }
     },
-    "url": ""
+    "url": "https://deadlabcary.github.io/lab-website"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/lab-website/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://deadlabcary.github.io/lab-website/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +90,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -353,6 +353,8 @@
 
   <script src="/lab-website/_scripts/site-search.js"></script>
 
+  <script src="/lab-website/_scripts/table-wrap.js"></script>
+
   <script src="/lab-website/_scripts/tooltip.js"></script>
 
 
@@ -377,12 +379,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>DEAD Lab</span>
+          <span class="title">DEAD Lab</span>
         
         
-          <span>Disturbance Ecology and Decomposition</span>
+          <span class="subtitle">Disturbance Ecology and Decomposition</span>
         
       </span>
     
@@ -418,6 +420,12 @@
       
     
       
+        <a href="/lab-website/photos/" data-tooltip="Lab photos">
+          Photos
+        </a>
+      
+    
+      
         <a href="/lab-website/team/" data-tooltip="Meet the lab!">
           Team
         </a>
@@ -437,11 +445,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -472,57 +477,60 @@
 
 <h2 id="highlighted">Highlighted</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gqrmqx" class="citation-image" aria-label="Tropical tree species differ in damage and mortality from lightning">
-      <img src="https://www.nature.com/articles/s41477-022-01230-x/figures/3" alt="Tropical tree species differ in damage and mortality from lightning" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gqrmqx" class="citation-title">
-      Tropical tree species differ in damage and mortality from lightning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jeannine H. Richards, Evan M. Gora, Cesar Gutierrez, Jeffrey C. Burchfield, Philip M. Bitzer, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Nature Plants
-        ·  
-      22 Aug 2022
-        ·  
-      doi:10.1038/s41477-022-01230-x
-    </div>
-
+      <a href="https://doi.org/gqrmqx" class="citation-image" aria-label="Tropical tree species differ in damage and mortality from lightning">
+        <img src="https://www.nature.com/articles/s41477-022-01230-x/figures/3" alt="Tropical tree species differ in damage and mortality from lightning" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gqrmqx" class="citation-title">
+        Tropical tree species differ in damage and mortality from lightning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jeannine H. Richards, Evan M. Gora, Cesar Gutierrez, Jeffrey C. Burchfield, Philip M. Bitzer, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Plants</span>
+         · 
+        <span class="citation-date">22 Aug 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41477-022-01230-x</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
   </section>
@@ -551,1364 +559,1445 @@
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gtg2fg" class="citation-image" aria-label="Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization">
-      <img src="" alt="Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gtg2fg" class="citation-image" aria-label="Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization">
+        <img src="" alt="Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gtg2fg" class="citation-title">
-      Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Benjamin J. Adams, Evan M. Gora, Matina C. Donaldson-Matasci, Elva J. H. Robinson, Scott Powell
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the Royal Society B: Biological Sciences
-        ·  
-      27 Sep 2023
-        ·  
-      doi:10.1098/rspb.2023.1290
-    </div>
-
-    
+    <div class="citation-text">
+      
       
 
-      
+      <a href="https://doi.org/gtg2fg" class="citation-title">
+        Competition and habitat availability interact to structure arboreal ant communities across scales of ecological organization
+      </a>
 
-      
-    
-  </div>
-</div>
+      <div class="citation-authors" tabindex="0">
+        Benjamin J. Adams, Evan M. Gora, Matina C. Donaldson-Matasci, Elva J. H. Robinson, Scott Powell
 
-<div class="citation">
-  
-    <a href="https://doi.org/gtg2fh" class="citation-image" aria-label="Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition">
-      <img src="" alt="Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
+      </div>
 
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gtg2fh" class="citation-title">
-      Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Ángela M. Barrera-Bello, Jane M. Lucas, Evan M. Gora
-    </div>
-
-    <div class="citation-details">
-      Ecosystems
-        ·  
-      15 Sep 2023
-        ·  
-      doi:10.1007/s10021-023-00874-w
-    </div>
-
-    
-      
-
-      
-
-      
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-    <a href="https://doi.org/gr2bp7" class="citation-image" aria-label="Lianas increase lightning‐caused disturbance severity in a tropical forest">
-      <img src="/lab-website/images/pubs/nph23.png" alt="Lianas increase lightning‐caused disturbance severity in a tropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gr2bp7" class="citation-title">
-      Lianas increase lightning‐caused disturbance severity in a tropical forest
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Stefan A. Schnitzer, Phillip M. Bitzer, Jeffrey C. Burchfield, Cesar Gutierrez, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      New Phytologist
-        ·  
-      23 Mar 2023
-        ·  
-      doi:10.1111/nph.18856
-    </div>
-
-    
-      
-
-      
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the Royal Society B: Biological Sciences</span>
+         · 
+        <span class="citation-date">27 Sep 2023</span>
+         · 
+        <span class="citation-id">doi:10.1098/rspb.2023.1290</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://doi.org/gtg2fh" class="citation-image" aria-label="Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition">
+        <img src="" alt="Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gtg2fh" class="citation-title">
+        Suspended Sections Within Downed Deadwood Are Drier, Have Altered Decomposer Communities, and Slower Decomposition
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ángela M. Barrera-Bello, Jane M. Lucas, Evan M. Gora
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecosystems</span>
+         · 
+        <span class="citation-date">15 Sep 2023</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10021-023-00874-w</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gr2bp7" class="citation-image" aria-label="Lianas increase lightning‐caused disturbance severity in a tropical forest">
+        <img src="/lab-website/images/pubs/nph23.png" alt="Lianas increase lightning‐caused disturbance severity in a tropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gr2bp7" class="citation-title">
+        Lianas increase lightning‐caused disturbance severity in a tropical forest
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Stefan A. Schnitzer, Phillip M. Bitzer, Jeffrey C. Burchfield, Cesar Gutierrez, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">New Phytologist</span>
+         · 
+        <span class="citation-date">23 Mar 2023</span>
+         · 
+        <span class="citation-id">doi:10.1111/nph.18856</span>
+      </div>
+
+      
+        
+
+        
+
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
+    
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2022">2022</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gqrmqx" class="citation-image" aria-label="Tropical tree species differ in damage and mortality from lightning">
-      <img src="https://www.nature.com/articles/s41477-022-01230-x/figures/3" alt="Tropical tree species differ in damage and mortality from lightning" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gqrmqx" class="citation-title">
-      Tropical tree species differ in damage and mortality from lightning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jeannine H. Richards, Evan M. Gora, Cesar Gutierrez, Jeffrey C. Burchfield, Philip M. Bitzer, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Nature Plants
-        ·  
-      22 Aug 2022
-        ·  
-      doi:10.1038/s41477-022-01230-x
-    </div>
-
+      <a href="https://doi.org/gqrmqx" class="citation-image" aria-label="Tropical tree species differ in damage and mortality from lightning">
+        <img src="https://www.nature.com/articles/s41477-022-01230-x/figures/3" alt="Tropical tree species differ in damage and mortality from lightning" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gqrmqx" class="citation-title">
+        Tropical tree species differ in damage and mortality from lightning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jeannine H. Richards, Evan M. Gora, Cesar Gutierrez, Jeffrey C. Burchfield, Philip M. Bitzer, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Plants</span>
+         · 
+        <span class="citation-date">22 Aug 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41477-022-01230-x</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsbx" class="citation-image" aria-label="The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest">
-      <img src="" alt="The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsbx" class="citation-title">
-      The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Cesar Gutierrez, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Ecology
-        ·  
-      20 Oct 2021
-        ·  
-      doi:10.1002/ecy.3541
-    </div>
-
+      <a href="https://doi.org/gsmsbx" class="citation-image" aria-label="The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest">
+        <img src="" alt="The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsbx" class="citation-title">
+        The contributions of lightning to biomass turnover, gap formation and plant mortality in a tropical forest
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Cesar Gutierrez, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecology</span>
+         · 
+        <span class="citation-date">20 Oct 2021</span>
+         · 
+        <span class="citation-id">doi:10.1002/ecy.3541</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/grz6sh" class="citation-image" aria-label="Implications of size-dependent tree mortality for tropical forest carbon dynamics">
-      <img src="https://www.nature.com/articles/s41477-021-00879-0/figures/3" alt="Implications of size-dependent tree mortality for tropical forest carbon dynamics" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/grz6sh" class="citation-title">
-      Implications of size-dependent tree mortality for tropical forest carbon dynamics
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Adriane Esquivel-Muelbert
-    </div>
-
-    <div class="citation-details">
-      Nature Plants
-        ·  
-      29 Mar 2021
-        ·  
-      doi:10.1038/s41477-021-00879-0
-    </div>
-
+      <a href="https://doi.org/grz6sh" class="citation-image" aria-label="Implications of size-dependent tree mortality for tropical forest carbon dynamics">
+        <img src="https://www.nature.com/articles/s41477-021-00879-0/figures/3" alt="Implications of size-dependent tree mortality for tropical forest carbon dynamics" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/grz6sh" class="citation-title">
+        Implications of size-dependent tree mortality for tropical forest carbon dynamics
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Adriane Esquivel-Muelbert
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Plants</span>
+         · 
+        <span class="citation-date">29 Mar 2021</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41477-021-00879-0</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gg563d" class="citation-image" aria-label="Lightning‐caused disturbance in the Peruvian Amazon">
-      <img src="" alt="Lightning‐caused disturbance in the Peruvian Amazon" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gg563d" class="citation-title">
-      Lightning‐caused disturbance in the Peruvian Amazon
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Biotropica
-        ·  
-      23 Jul 2020
-        ·  
-      doi:10.1111/btp.12826
-    </div>
-
+      <a href="https://doi.org/gg563d" class="citation-image" aria-label="Lightning‐caused disturbance in the Peruvian Amazon">
+        <img src="" alt="Lightning‐caused disturbance in the Peruvian Amazon" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gg563d" class="citation-title">
+        Lightning‐caused disturbance in the Peruvian Amazon
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biotropica</span>
+         · 
+        <span class="citation-date">23 Jul 2020</span>
+         · 
+        <span class="citation-id">doi:10.1111/btp.12826</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20disturbance%22" class="tag" data-tooltip='Show items with the tag "disturbance"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20disturbance%22" class="tag" data-tooltip='Show items with the tag "disturbance"'>
         disturbance
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gg9wfm" class="citation-image" aria-label="Pantropical geography of lightning‐caused disturbance and its implications for tropical forests">
-      <img src="" alt="Pantropical geography of lightning‐caused disturbance and its implications for tropical forests" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gg9wfm" class="citation-title">
-      Pantropical geography of lightning‐caused disturbance and its implications for tropical forests
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Jeffrey C. Burchfield, Helene C. Muller‐Landau, Phillip M. Bitzer, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Global Change Biology
-        ·  
-      08 Jul 2020
-        ·  
-      doi:10.1111/gcb.15227
-    </div>
-
+      <a href="https://doi.org/gg9wfm" class="citation-image" aria-label="Pantropical geography of lightning‐caused disturbance and its implications for tropical forests">
+        <img src="" alt="Pantropical geography of lightning‐caused disturbance and its implications for tropical forests" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gg9wfm" class="citation-title">
+        Pantropical geography of lightning‐caused disturbance and its implications for tropical forests
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Jeffrey C. Burchfield, Helene C. Muller‐Landau, Phillip M. Bitzer, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Global Change Biology</span>
+         · 
+        <span class="citation-date">08 Jul 2020</span>
+         · 
+        <span class="citation-id">doi:10.1111/gcb.15227</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20disturbance%22" class="tag" data-tooltip='Show items with the tag "disturbance"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20disturbance%22" class="tag" data-tooltip='Show items with the tag "disturbance"'>
         disturbance
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gjjb8x" class="citation-image" aria-label="Lightning Damage Facilitates Beetle Colonization of Tropical Trees">
-      <img src="" alt="Lightning Damage Facilitates Beetle Colonization of Tropical Trees" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gjjb8x" class="citation-title">
-      Lightning Damage Facilitates Beetle Colonization of Tropical Trees
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Brady P Parlato, Evan M Gora, Stephen P Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Annals of the Entomological Society of America
-        ·  
-      05 Jul 2020
-        ·  
-      doi:10.1093/aesa/saaa015
-    </div>
-
+      <a href="https://doi.org/gjjb8x" class="citation-image" aria-label="Lightning Damage Facilitates Beetle Colonization of Tropical Trees">
+        <img src="" alt="Lightning Damage Facilitates Beetle Colonization of Tropical Trees" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gjjb8x" class="citation-title">
+        Lightning Damage Facilitates Beetle Colonization of Tropical Trees
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Brady P Parlato, Evan M Gora, Stephen P Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Annals of the Entomological Society of America</span>
+         · 
+        <span class="citation-date">05 Jul 2020</span>
+         · 
+        <span class="citation-id">doi:10.1093/aesa/saaa015</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
         decomposition
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gg482q" class="citation-image" aria-label="A mechanistic and empirically supported lightning risk model for forest trees">
-      <img src="" alt="A mechanistic and empirically supported lightning risk model for forest trees" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gg482q" class="citation-title">
-      A mechanistic and empirically supported lightning risk model for forest trees
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Helene C. Muller‐Landau, Jeffrey C. Burchfield, Phillip M. Bitzer, Stephen P. Hubbell, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Journal of Ecology
-        ·  
-      20 May 2020
-        ·  
-      doi:10.1111/1365-2745.13404
-    </div>
-
+      <a href="https://doi.org/gg482q" class="citation-image" aria-label="A mechanistic and empirically supported lightning risk model for forest trees">
+        <img src="" alt="A mechanistic and empirically supported lightning risk model for forest trees" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          Harper Prize finalist for best paper by an early career scientist
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
 
-      
+      <a href="https://doi.org/gg482q" class="citation-title">
+        A mechanistic and empirically supported lightning risk model for forest trees
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Helene C. Muller‐Landau, Jeffrey C. Burchfield, Phillip M. Bitzer, Stephen P. Hubbell, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Ecology</span>
+         · 
+        <span class="citation-date">20 May 2020</span>
+         · 
+        <span class="citation-id">doi:10.1111/1365-2745.13404</span>
+      </div>
 
       
         
+          <div class="citation-description">
+            Harper Prize finalist for best paper by an early career scientist
+
+          </div>
+        
+
+        
+
+        
+          
 
 
-  <div class="tags" data-link="/lab-website/publications/">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20model%22" class="tag" data-tooltip='Show items with the tag "model"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20model%22" class="tag" data-tooltip='Show items with the tag "model"'>
         model
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/grkwfx" class="citation-image" aria-label="Lightning is a major cause of large tree mortality in a lowland neotropical forest">
-      <img src="" alt="Lightning is a major cause of large tree mortality in a lowland neotropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/grkwfx" class="citation-title">
-      Lightning is a major cause of large tree mortality in a lowland neotropical forest
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Stephen P. Yanoviak, Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Helene C. Muller‐Landau, Matteo Detto, Steven Paton, Stephen P. Hubbell
-    </div>
-
-    <div class="citation-details">
-      New Phytologist
-        ·  
-      18 Nov 2019
-        ·  
-      doi:10.1111/nph.16260
-    </div>
-
+      <a href="https://doi.org/grkwfx" class="citation-image" aria-label="Lightning is a major cause of large tree mortality in a lowland neotropical forest">
+        <img src="" alt="Lightning is a major cause of large tree mortality in a lowland neotropical forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/grkwfx" class="citation-title">
+        Lightning is a major cause of large tree mortality in a lowland neotropical forest
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Stephen P. Yanoviak, Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Helene C. Muller‐Landau, Matteo Detto, Steven Paton, Stephen P. Hubbell
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">New Phytologist</span>
+         · 
+        <span class="citation-date">18 Nov 2019</span>
+         · 
+        <span class="citation-id">doi:10.1111/nph.16260</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20mortality%22" class="tag" data-tooltip='Show items with the tag "mortality"'>
         mortality
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gn48rt" class="citation-image" aria-label="Do lianas shape ant communities in an early successional tropical forest?">
-      <img src="" alt="Do lianas shape ant communities in an early successional tropical forest?" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gn48rt" class="citation-title">
-      Do lianas shape ant communities in an early successional tropical forest?
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Benjamin J. Adams, Evan M. Gora, Michiel van Breugel, Sergio Estrada‐Villegas, Stefan A. Schnitzer, Jefferson S. Hall, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Biotropica
-        ·  
-      11 Oct 2019
-        ·  
-      doi:10.1111/btp.12709
-    </div>
-
+      <a href="https://doi.org/gn48rt" class="citation-image" aria-label="Do lianas shape ant communities in an early successional tropical forest?">
+        <img src="" alt="Do lianas shape ant communities in an early successional tropical forest?" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gn48rt" class="citation-title">
+        Do lianas shape ant communities in an early successional tropical forest?
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Benjamin J. Adams, Evan M. Gora, Michiel van Breugel, Sergio Estrada‐Villegas, Stefan A. Schnitzer, Jefferson S. Hall, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biotropica</span>
+         · 
+        <span class="citation-date">11 Oct 2019</span>
+         · 
+        <span class="citation-id">doi:10.1111/btp.12709</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
         biodiversity
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gn5qm7" class="citation-image" aria-label="Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs">
-      <img src="" alt="Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gn5qm7" class="citation-title">
-      Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jane M. Lucas, Evan Gora, Annika Salzberg, Michael Kaspari
-    </div>
-
-    <div class="citation-details">
-      Proceedings of the Royal Society B: Biological Sciences
-        ·  
-      25 Sep 2019
-        ·  
-      doi:10.1098/rspb.2019.1536
-    </div>
-
+      <a href="https://doi.org/gn5qm7" class="citation-image" aria-label="Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs">
+        <img src="" alt="Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gn5qm7" class="citation-title">
+        Antibiotics as chemical warfare across multiple taxonomic domains and trophic levels in brown food webs
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jane M. Lucas, Evan Gora, Annika Salzberg, Michael Kaspari
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the Royal Society B: Biological Sciences</span>
+         · 
+        <span class="citation-date">25 Sep 2019</span>
+         · 
+        <span class="citation-id">doi:10.1098/rspb.2019.1536</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
         decomposition
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsbz" class="citation-image" aria-label="Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients">
-      <img src="" alt="Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsbz" class="citation-title">
-      Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Jane M. Lucas
-    </div>
-
-    <div class="citation-details">
-      Functional Ecology
-        ·  
-      10 Sep 2019
-        ·  
-      doi:10.1111/1365-2435.13440
-    </div>
-
+      <a href="https://doi.org/gsmsbz" class="citation-image" aria-label="Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients">
+        <img src="" alt="Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsbz" class="citation-title">
+        Dispersal and nutrient limitations of decomposition above the forest floor: Evidence from experimental manipulations of epiphytes and macronutrients
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Jane M. Lucas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Functional Ecology</span>
+         · 
+        <span class="citation-date">10 Sep 2019</span>
+         · 
+        <span class="citation-id">doi:10.1111/1365-2435.13440</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
         decomposition
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb2" class="citation-image" aria-label="Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest">
-      <img src="" alt="Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb2" class="citation-title">
-      Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Jane M. Lucas, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Ecosystems
-        ·  
-      19 Mar 2019
-        ·  
-      doi:10.1007/s10021-019-00359-9
-    </div>
-
+      <a href="https://doi.org/gsmsb2" class="citation-image" aria-label="Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest">
+        <img src="" alt="Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb2" class="citation-title">
+        Microbial Composition and Wood Decomposition Rates Vary with Microclimate From the Ground to the Canopy in a Tropical Forest
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Jane M. Lucas, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecosystems</span>
+         · 
+        <span class="citation-date">19 Mar 2019</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10021-019-00359-9</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
         biodiversity
       </a>
     
-      <a href="/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
         decomposition
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gjq3k2" class="citation-image" aria-label="Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability">
-      <img src="" alt="Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gjq3k2" class="citation-title">
-      Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Riley C. Kneale, Markku Larjavaara, Helene C. Muller-Landau
-    </div>
-
-    <div class="citation-details">
-      Ecosystems
-        ·  
-      04 Feb 2019
-        ·  
-      doi:10.1007/s10021-019-00341-5
-    </div>
-
+      <a href="https://doi.org/gjq3k2" class="citation-image" aria-label="Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability">
+        <img src="" alt="Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gjq3k2" class="citation-title">
+        Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal Variability
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Riley C. Kneale, Markku Larjavaara, Helene C. Muller-Landau
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecosystems</span>
+         · 
+        <span class="citation-date">04 Feb 2019</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10021-019-00341-5</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20deadwood%22" class="tag" data-tooltip='Show items with the tag "deadwood"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20deadwood%22" class="tag" data-tooltip='Show items with the tag "deadwood"'>
         deadwood
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2018">2018</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb3" class="citation-image" aria-label="A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)">
-      <img src="" alt="A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb3" class="citation-title">
-      A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Noah D Gripshover, Stephen P Yanoviak, Evan M Gora
-    </div>
-
-    <div class="citation-details">
-      Annals of the Entomological Society of America
-        ·  
-      30 Jul 2018
-        ·  
-      doi:10.1093/aesa/say026
-    </div>
-
+      <a href="https://doi.org/gsmsb3" class="citation-image" aria-label="A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)">
+        <img src="" alt="A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb3" class="citation-title">
+        A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Noah D Gripshover, Stephen P Yanoviak, Evan M Gora
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Annals of the Entomological Society of America</span>
+         · 
+        <span class="citation-date">30 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1093/aesa/say026</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
         biodiversity
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gc5vbm" class="citation-image" aria-label="Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability">
-      <img src="" alt="Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gc5vbm" class="citation-title">
-      Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Emma J. Sayer, Benjamin L. Turner, Edmund V. J. Tanner
-    </div>
-
-    <div class="citation-details">
-      Functional Ecology
-        ·  
-      05 Feb 2018
-        ·  
-      doi:10.1111/1365-2435.13047
-    </div>
-
+      <a href="https://doi.org/gc5vbm" class="citation-image" aria-label="Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability">
+        <img src="" alt="Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gc5vbm" class="citation-title">
+        Decomposition of coarse woody debris in a long‐term litter manipulation experiment: A focus on nutrient availability
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Emma J. Sayer, Benjamin L. Turner, Edmund V. J. Tanner
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Functional Ecology</span>
+         · 
+        <span class="citation-date">05 Feb 2018</span>
+         · 
+        <span class="citation-id">doi:10.1111/1365-2435.13047</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20decomposition%22" class="tag" data-tooltip='Show items with the tag "decomposition"'>
         decomposition
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2017">2017</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb4" class="citation-image" aria-label="Effects of lightning on trees: A predictive model based on in situ electrical resistivity">
-      <img src="" alt="Effects of lightning on trees: A predictive model based on in situ electrical resistivity" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb4" class="citation-title">
-      Effects of lightning on trees: A predictive model based on in situ electrical resistivity
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Stefan A. Schnitzer, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Ecology and Evolution
-        ·  
-      12 Sep 2017
-        ·  
-      doi:10.1002/ece3.3347
-    </div>
-
+      <a href="https://doi.org/gsmsb4" class="citation-image" aria-label="Effects of lightning on trees: A predictive model based on in situ electrical resistivity">
+        <img src="" alt="Effects of lightning on trees: A predictive model based on in situ electrical resistivity" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb4" class="citation-title">
+        Effects of lightning on trees: A predictive model based on in situ electrical resistivity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Phillip M. Bitzer, Jeffrey C. Burchfield, Stefan A. Schnitzer, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecology and Evolution</span>
+         · 
+        <span class="citation-date">12 Sep 2017</span>
+         · 
+        <span class="citation-id">doi:10.1002/ece3.3347</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb5" class="citation-image" aria-label="A view of the global conservation job market and how to succeed in it">
-      <img src="" alt="A view of the global conservation job market and how to succeed in it" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb5" class="citation-title">
-      A view of the global conservation job market and how to succeed in it
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Jane Lucas, Evan Gora, Alfonso Alonso
-    </div>
-
-    <div class="citation-details">
-      Conservation Biology
-        ·  
-      05 Sep 2017
-        ·  
-      doi:10.1111/cobi.12949
-    </div>
-
+      <a href="https://doi.org/gsmsb5" class="citation-image" aria-label="A view of the global conservation job market and how to succeed in it">
+        <img src="" alt="A view of the global conservation job market and how to succeed in it" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb5" class="citation-title">
+        A view of the global conservation job market and how to succeed in it
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jane Lucas, Evan Gora, Alfonso Alonso
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Conservation Biology</span>
+         · 
+        <span class="citation-date">05 Sep 2017</span>
+         · 
+        <span class="citation-id">doi:10.1111/cobi.12949</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20conservation%22" class="tag" data-tooltip='Show items with the tag "conservation"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20conservation%22" class="tag" data-tooltip='Show items with the tag "conservation"'>
         conservation
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb6" class="citation-image" aria-label="Quantification and identification of lightning damage in tropical forests">
-      <img src="" alt="Quantification and identification of lightning damage in tropical forests" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb6" class="citation-title">
-      Quantification and identification of lightning damage in tropical forests
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Stephen P. Yanoviak, Evan M. Gora, Jeffrey M. Burchfield, Phillip M. Bitzer, Matteo Detto
-    </div>
-
-    <div class="citation-details">
-      Ecology and Evolution
-        ·  
-      02 Jun 2017
-        ·  
-      doi:10.1002/ece3.3095
-    </div>
-
+      <a href="https://doi.org/gsmsb6" class="citation-image" aria-label="Quantification and identification of lightning damage in tropical forests">
+        <img src="" alt="Quantification and identification of lightning damage in tropical forests" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb6" class="citation-title">
+        Quantification and identification of lightning damage in tropical forests
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Stephen P. Yanoviak, Evan M. Gora, Jeffrey M. Burchfield, Phillip M. Bitzer, Matteo Detto
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecology and Evolution</span>
+         · 
+        <span class="citation-date">02 Jun 2017</span>
+         · 
+        <span class="citation-id">doi:10.1002/ece3.3095</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2016">2016</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb7" class="citation-image" aria-label="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)">
-      <img src="" alt="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gsmsb7" class="citation-title">
-      Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      E.M. Gora, N. Gripshover, S.P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      The Austrian Society of Entomofaunistics
-        ·  
-      01 Jan 2016
-        ·  
-      doi:10.25849/myrmecol.news_023:033
-    </div>
-
+      <a href="https://doi.org/gsmsb7" class="citation-image" aria-label="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)">
+        <img src="" alt="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gsmsb7" class="citation-title">
+        Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        E.M. Gora, N. Gripshover, S.P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Austrian Society of Entomofaunistics</span>
+         · 
+        <span class="citation-date">01 Jan 2016</span>
+         · 
+        <span class="citation-id">doi:10.25849/myrmecol.news_023:033</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
         biodiversity
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsmsb7" class="citation-image" aria-label="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)">
-      <img src="" alt="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsmsb7" class="citation-image" aria-label="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)">
+        <img src="" alt="Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsmsb7" class="citation-title">
-      Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      E.M. Gora, N. Gripshover, S.P. Yanoviak
+      <a href="https://doi.org/gsmsb7" class="citation-title">
+        Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus (De Geer, 1773) (Hymenoptera: Formicidae)
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        E.M. Gora, N. Gripshover, S.P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Austrian Society of Entomofaunistics</span>
+         · 
+        <span class="citation-date">01 Jan 2016</span>
+         · 
+        <span class="citation-id">doi:10.25849/MYRMECOL.NEWS_023:033</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      The Austrian Society of Entomofaunistics
-        ·  
-      01 Jan 2016
-        ·  
-      doi:10.25849/MYRMECOL.NEWS_023:033
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2015">2015</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f7s74q" class="citation-image" aria-label="Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States">
-      <img src="" alt="Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/f7s74q" class="citation-title">
-      Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Stephen P. Yanoviak, Evan M. Gora, Jennifer Fredley, Phillip M. Bitzer, Rose-Marie Muzika, Walter P. Carson
-    </div>
-
-    <div class="citation-details">
-      Canadian Journal of Forest Research
-        ·  
-      01 Oct 2015
-        ·  
-      doi:10.1139/cjfr-2015-0081
-    </div>
-
+      <a href="https://doi.org/f7s74q" class="citation-image" aria-label="Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States">
+        <img src="" alt="Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/f7s74q" class="citation-title">
+        Direct effects of lightning in temperate forests: a review and preliminary survey in a hemlock–hardwood forest of the northern United States
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Stephen P. Yanoviak, Evan M. Gora, Jennifer Fredley, Phillip M. Bitzer, Rose-Marie Muzika, Walter P. Carson
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Canadian Journal of Forest Research</span>
+         · 
+        <span class="citation-date">01 Oct 2015</span>
+         · 
+        <span class="citation-id">doi:10.1139/cjfr-2015-0081</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20lightning%22" class="tag" data-tooltip='Show items with the tag "lightning"'>
         lightning
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f6738r" class="citation-image" aria-label="Electrical properties of temperate forest trees: a review and quantitative comparison with vines">
-      <img src="" alt="Electrical properties of temperate forest trees: a review and quantitative comparison with vines" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/f6738r" class="citation-title">
-      Electrical properties of temperate forest trees: a review and quantitative comparison with vines
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Stephen P. Yanoviak
-    </div>
-
-    <div class="citation-details">
-      Canadian Journal of Forest Research
-        ·  
-      01 Mar 2015
-        ·  
-      doi:10.1139/cjfr-2014-0380
-    </div>
-
+      <a href="https://doi.org/f6738r" class="citation-image" aria-label="Electrical properties of temperate forest trees: a review and quantitative comparison with vines">
+        <img src="" alt="Electrical properties of temperate forest trees: a review and quantitative comparison with vines" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/f6738r" class="citation-title">
+        Electrical properties of temperate forest trees: a review and quantitative comparison with vines
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Stephen P. Yanoviak
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Canadian Journal of Forest Research</span>
+         · 
+        <span class="citation-date">01 Mar 2015</span>
+         · 
+        <span class="citation-id">doi:10.1139/cjfr-2014-0380</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20biodiversity%22" class="tag" data-tooltip='Show items with the tag "biodiversity"'>
         biodiversity
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2014">2014</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f6snbp" class="citation-image" aria-label="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;">
-      <img src="" alt="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/f6snbp" class="citation-title">
-      Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania<sup>1</sup>
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Loretta L. Battaglia, Henry B. Schumacher, Walter P. Carson
-    </div>
-
-    <div class="citation-details">
-      The Journal of the Torrey Botanical Society
-        ·  
-      01 Apr 2014
-        ·  
-      doi:10.3159/TORREY-D-13-00066.1
-    </div>
-
+      <a href="https://doi.org/f6snbp" class="citation-image" aria-label="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;">
+        <img src="" alt="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
 
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/f6snbp" class="citation-title">
+        Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania<sup>1</sup>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Loretta L. Battaglia, Henry B. Schumacher, Walter P. Carson
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of the Torrey Botanical Society</span>
+         · 
+        <span class="citation-date">01 Apr 2014</span>
+         · 
+        <span class="citation-id">doi:10.3159/TORREY-D-13-00066.1</span>
+      </div>
 
       
         
 
+        
 
-  <div class="tags" data-link="/lab-website/publications/">
+        
+          
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/publications/">
     
-      <a href="/lab-website/publications/?search=%22tag:%20deadwood%22" class="tag" data-tooltip='Show items with the tag "deadwood"'>
+      <a href="https://deadlabcary.github.io/lab-website/publications/?search=%22tag:%20deadwood%22" class="tag" data-tooltip='Show items with the tag "deadwood"'>
         deadwood
       </a>
     
   </div>
 
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f6snbp" class="citation-image" aria-label="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;">
-      <img src="" alt="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f6snbp" class="citation-image" aria-label="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;">
+        <img src="" alt="Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania&lt;sup&gt;1&lt;/sup&gt;" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f6snbp" class="citation-title">
-      Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania<sup>1</sup>
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Evan M. Gora, Loretta L. Battaglia, Henry B. Schumacher, Walter P. Carson
+      <a href="https://doi.org/f6snbp" class="citation-title">
+        Patterns of coarse woody debris volume among 18 late-successional and mature forest stands in Pennsylvania<sup>1</sup>
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Evan M. Gora, Loretta L. Battaglia, Henry B. Schumacher, Walter P. Carson
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of the Torrey Botanical Society</span>
+         · 
+        <span class="citation-date">01 Apr 2014</span>
+         · 
+        <span class="citation-id">doi:10.3159/torrey-d-13-00066.1</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      The Journal of the Torrey Botanical Society
-        ·  
-      01 Apr 2014
-        ·  
-      doi:10.3159/torrey-d-13-00066.1
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>

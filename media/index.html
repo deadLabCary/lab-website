@@ -44,18 +44,18 @@
 <link rel="icon" href="/lab-website/images/icon.png">
 
 <meta name="title" content="Media">
-<meta name="description" content="Disturbance Ecology and Decomposition. Some intriguing description">
+<meta name="description" content="Disturbance Ecology and Decomposition. ">
 
 <meta property="og:title" content="Media">
 <meta property="og:site_title" content="DEAD Lab">
-<meta property="og:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="og:url" content="">
+<meta property="og:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="og:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="og:image" content="/lab-website/images/share.png">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Media">
-<meta property="twitter:description" content="Disturbance Ecology and Decomposition. Some intriguing description">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="Disturbance Ecology and Decomposition. ">
+<meta property="twitter:url" content="https://deadlabcary.github.io/lab-website">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/lab-website/images/share.png">
 
@@ -70,17 +70,17 @@
       "@type": "WebSite",
     
     "name": "Media",
-    "description": "Disturbance Ecology and Decomposition. Some intriguing description",
+    "description": "Disturbance Ecology and Decomposition. ",
     "headline": "Media",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/lab-website/images/icon.png" }
     },
-    "url": ""
+    "url": "https://deadlabcary.github.io/lab-website"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/lab-website/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://deadlabcary.github.io/lab-website/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +90,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -353,6 +353,8 @@
 
   <script src="/lab-website/_scripts/site-search.js"></script>
 
+  <script src="/lab-website/_scripts/table-wrap.js"></script>
+
   <script src="/lab-website/_scripts/tooltip.js"></script>
 
 
@@ -377,12 +379,12 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>DEAD Lab</span>
+          <span class="title">DEAD Lab</span>
         
         
-          <span>Disturbance Ecology and Decomposition</span>
+          <span class="subtitle">Disturbance Ecology and Decomposition</span>
         
       </span>
     
@@ -418,6 +420,12 @@
       
     
       
+        <a href="/lab-website/photos/" data-tooltip="Lab photos">
+          Photos
+        </a>
+      
+    
+      
         <a href="/lab-website/team/" data-tooltip="Meet the lab!">
           Team
         </a>
@@ -437,11 +445,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -457,6 +462,22 @@
 <i class="icon fa-solid fa-microphone"></i>Media</h1>
 
 <p>From podcasts to articles, check out our lab’s work being highlighted by external media.</p>
+
+<div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
+    
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
+      </a>
+    
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
+        website
+      </a>
+    
+  </div>
 
 <div class="search-info"></div>
   </section>
@@ -487,21 +508,23 @@
     
 
     
-      <span class="card-subtitle">NPR interview</span>
+      <span class="card-subtitle">NPR 2022</span>
     
 
     
-      <p>On today’s episode, Evan Gora tells Aaron Scott about a few of his shocking discoveries in lightning research, and why Evan says he’s developed a healthy respect for the hazards it poses, both to individual researchers and to the forests that life on Earth depends on.</p>
+      <p>
+        On today’s episode, Evan Gora tells Aaron Scott about a few of his shocking discoveries in lightning research, and why Evan says he’s developed a healthy respect for the hazards it poses, both to individual researchers and to the forests that life on Earth depends on.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-link="/lab-website/media/">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
     
-      <a href="/lab-website/media/?search=%22tag:%20interview%22" class="tag" data-tooltip='Show items with the tag "interview"'>
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20interview%22" class="tag" data-tooltip='Show items with the tag "interview"'>
         interview
       </a>
     
@@ -513,34 +536,36 @@
 </div>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/lab-website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+  <a href="https://www.science.org/content/article/sturdy-they-are-giant-trees-are-particularly-susceptible-these-three-killers" aria-label="Sturdy as they are, giant trees are particularly susceptible to these three killers" class="card-image">
+    <img src="https://www.science.org/do/10.1126/science.aaz3891/full/ca_0906NID_Tree_Lightning_Barro_Colorado_Island_online_0-1644914689877.jpg" alt="Sturdy as they are, giant trees are particularly susceptible to these three killers" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Package
+      <a href="https://www.science.org/content/article/sturdy-they-are-giant-trees-are-particularly-susceptible-these-three-killers" class="card-title">
+        Sturdy as they are, giant trees are particularly susceptible to these three killers
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Science 2019</span>
     
 
     
-      <p>Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>
+        Lightning, drought, and invasive pests tend to slay the largest trees.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/lab-website/media/">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
     
-      <a href="/lab-website/media/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20feature%22" class="tag" data-tooltip='Show items with the tag "feature"'>
+        feature
       </a>
     
   </div>
@@ -565,38 +590,80 @@
 <h2 id="more">More</h2>
 
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/lab-website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+  <a href="https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2023/11/21/embark-on-a-journey-to-the-smithsonians-tropical-research-station/" aria-label="Embark on a Journey to the Smithsonian’s Tropical Research Station" class="card-image">
+    <img src="https://th-thumbnailer.cdn-si-edu.com/nXhBpdSgpD25BgBUryk29iXAgEM=/fit-in/1072x0/filters:focal(619x413:620x414)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/bc/3c/bc3c9e7e-4387-4721-8048-f938c4cd0237/screen_shot_2023-11-20_at_123051_pm.png" alt="Embark on a Journey to the Smithsonian’s Tropical Research Station" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
+      <a href="https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2023/11/21/embark-on-a-journey-to-the-smithsonians-tropical-research-station/" class="card-title">
+        Embark on a Journey to the Smithsonian’s Tropical Research Station
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Smithsonian Magazine 2023</span>
     
 
     
-      <p>Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>
+        Join a museum intern on a visit to Panama’s Barro Colorado Island to celebrate 100 years of scientific discovery.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/lab-website/media/">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
     
-      <a href="/lab-website/media/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20feature%22" class="tag" data-tooltip='Show items with the tag "feature"'>
+        feature
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="small">
+  <a href="https://news.mongabay.com/2018/06/not-all-doom-and-gloom-qa-with-conservation-job-market-researchers/" aria-label="Not all doom and gloom - Q&amp;A with conservation job market researchers" class="card-image">
+    <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/06/18151815/brnxz_876.jpg" alt="Not all doom and gloom - Q&amp;A with conservation job market researchers" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://news.mongabay.com/2018/06/not-all-doom-and-gloom-qa-with-conservation-job-market-researchers/" class="card-title">
+        Not all doom and gloom - Q&amp;A with conservation job market researchers
+    </a>
+    
+
+    
+      <span class="card-subtitle">Mongabay 2018</span>
+    
+
+    
+      <p>
+        Mongabay interviewed study co-authors Jane Lucas, who is now doing a postdoc at the University of Idaho, and Evan Gora, who is now doing a postdoc at the University of Louisville, to hear what they learned.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
+    
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
       </a>
     
-      <a href="/lab-website/media/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20interview%22" class="tag" data-tooltip='Show items with the tag "interview"'>
+        interview
       </a>
     
   </div>
@@ -607,72 +674,40 @@
 </div>
 
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/lab-website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
+  <a href="https://eos.org/articles/panama-study-tallest-tropical-trees-died-mostly-from-lightning" aria-label="Panama Study - Tallest Tropical Trees Died Mostly from Lightning" class="card-image">
+    <img src="https://i0.wp.com/eos.org/wp-content/uploads/2017/08/prioria-copaifera-camibar-tree-barro-colorado-forest-panama.jpg?w=820&ssl=1" alt="Panama Study - Tallest Tropical Trees Died Mostly from Lightning" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
+      <a href="https://eos.org/articles/panama-study-tallest-tropical-trees-died-mostly-from-lightning" class="card-title">
+        Panama Study - Tallest Tropical Trees Died Mostly from Lightning
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Eos 2017</span>
     
 
     
-      <p>Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>
+        On Barro Colorado Island in the Panama Canal, scientists map lightning strikes and find that they kill mainly the loftiest trees, likely disturbing the forest ecology.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/lab-website/media/">
+  <div class="tags" data-link="https://deadlabcary.github.io/lab-website/media/">
     
-      <a href="/lab-website/media/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20feature%22" class="tag" data-tooltip='Show items with the tag "feature"'>
+        feature
       </a>
     
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/lab-website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/lab-website/media/">
-    
-      <a href="/lab-website/media/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="https://deadlabcary.github.io/lab-website/media/?search=%22tag:%20interview%22" class="tag" data-tooltip='Show items with the tag "interview"'>
+        interview
       </a>
     
   </div>

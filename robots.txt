@@ -1,1 +1,1 @@
-Sitemap: /lab-website/sitemap.xml
+Sitemap: https://deadlabcary.github.io/lab-website/sitemap.xml
