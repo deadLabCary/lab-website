@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: DEAD Lab
 subtitle: Disturbance Ecology and Decomposition
-description: Some intriguing description
+description: 
 header: images/primaryBG.jpeg
 footer: images/primaryBG.jpeg
 header-dark: true

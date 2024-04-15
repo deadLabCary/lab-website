@@ -79,3 +79,26 @@ We are a group of ecologists, scientists, and life-long students. Together, we c
   title="Our Team"
   text=text
 %}
+
+{% capture text %}
+
+Check out the lab's publications and media spotlights!
+
+{%
+  include button.html
+  link="publications"
+  text="Lab outputs"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/contact/pic2.jpeg"
+  link="team"
+  title="Our Team"
+  text=text
+%}

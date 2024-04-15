@@ -1,5 +1,5 @@
 - title: One Mississippi...How Lightning Shapes the Climate
-  subtitle: NPR interview
+  subtitle: NPR 2022
   group: featured
   image: https://media.npr.org/assets/img/2022/12/05/gettyimages-940296124-edit-d47e26f76e5b98c55f863fa9afdab05785d3f07d-s1600-c85.webp
   link: https://www.npr.org/2022/12/05/1140778347/one-mississippi-how-lightning-shapes-the-climate
@@ -8,40 +8,41 @@
   tags:
     - interview
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Sturdy as they are, giant trees are particularly susceptible to these three killers
+  subtitle: Science 2019
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://www.science.org/do/10.1126/science.aaz3891/full/ca_0906NID_Tree_Lightning_Barro_Colorado_Island_online_0-1644914689877.jpg
+  link: https://www.science.org/content/article/sturdy-they-are-giant-trees-are-particularly-susceptible-these-three-killers
+  description: Lightning, drought, and invasive pests tend to slay the largest trees.
+  repo:
+  tags:
+    - feature
+
+- title: Embark on a Journey to the Smithsonian’s Tropical Research Station
+  subtitle: Smithsonian Magazine 2023
+  image: https://th-thumbnailer.cdn-si-edu.com/nXhBpdSgpD25BgBUryk29iXAgEM=/fit-in/1072x0/filters:focal(619x413:620x414)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/bc/3c/bc3c9e7e-4387-4721-8048-f938c4cd0237/screen_shot_2023-11-20_at_123051_pm.png
+  link: https://www.smithsonianmag.com/blogs/national-museum-of-natural-history/2023/11/21/embark-on-a-journey-to-the-smithsonians-tropical-research-station/
+  description: Join a museum intern on a visit to Panama's Barro Colorado Island to celebrate 100 years of scientific discovery.
+  repo:
+  tags:
+    - feature
+
+- title: Not all doom and gloom - Q&A with conservation job market researchers
+  subtitle: Mongabay 2018
+  image: https://imgs.mongabay.com/wp-content/uploads/sites/20/2018/06/18151815/brnxz_876.jpg
+  link: https://news.mongabay.com/2018/06/not-all-doom-and-gloom-qa-with-conservation-job-market-researchers/
+  description: Mongabay interviewed study co-authors Jane Lucas, who is now doing a postdoc at the University of Idaho, and Evan Gora, who is now doing a postdoc at the University of Louisville, to hear what they learned.
+  repo: 
   tags:
     - resource
+    - interview
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Panama Study - Tallest Tropical Trees Died Mostly from Lightning
+  subtitle: Eos 2017
+  image: https://i0.wp.com/eos.org/wp-content/uploads/2017/08/prioria-copaifera-camibar-tree-barro-colorado-forest-panama.jpg?w=820&ssl=1
+  link: https://eos.org/articles/panama-study-tallest-tropical-trees-died-mostly-from-lightning
+  description: On Barro Colorado Island in the Panama Canal, scientists map lightning strikes and find that they kill mainly the loftiest trees, likely disturbing the forest ecology.
+  repo:
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - feature
+    - interview
