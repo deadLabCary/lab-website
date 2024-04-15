@@ -15,10 +15,34 @@ nav:
         link="team"
         width="400px"
     %}
-  {% include figure.html ... %}
-  {% include figure.html ... %}
-  {% include figure.html ... %}
-  {% include figure.html ... %}
+    {%
+        include figure.html
+        image="images/group-photo.jpg"
+        caption="The team at our annual Christmas party, 2025"
+        link="team"
+        width="400px"
+    %}
+    {%
+        include figure.html
+        image="images/group-photo.jpg"
+        caption="The team at our annual Christmas party, 2025"
+        link="team"
+        width="400px"
+    %}
+    {%
+        include figure.html
+        image="images/group-photo.jpg"
+        caption="The team at our annual Christmas party, 2025"
+        link="team"
+        width="400px"
+    %}
+    {%
+        include figure.html
+        image="images/group-photo.jpg"
+        caption="The team at our annual Christmas party, 2025"
+        link="team"
+        width="400px"
+    %}
 {% endcapture %}
 
 {%
