@@ -6,6 +6,7 @@ header: images/primaryBG.jpeg
 footer: images/primaryBG.jpeg
 header-dark: true
 footer-dark: true
+proofer: false
 
 # site social media and other links
 links:
