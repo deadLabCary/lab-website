@@ -102,4 +102,5 @@ Check out the lab's publications and media spotlights!
   link="publications"
   title="Lab outputs"
   text=text
+  flip=true
 %}
