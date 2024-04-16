@@ -35,7 +35,7 @@
   --semi-bold: 500;
   --bold: 600;
   --spacing: 1;
-  --compact: 0.5;
+  --compact: 1;
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
