@@ -78,6 +78,7 @@ We are a group of ecologists, scientists, and life-long students. Together, we c
   link="team"
   title="Our Team"
   text=text
+  flip=false
 %}
 
 {% capture text %}
@@ -87,7 +88,7 @@ Check out the lab's publications and media spotlights!
 {%
   include button.html
   link="publications"
-  text="Lab outputs"
+  text="Check out our lab outputs"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -98,7 +99,7 @@ Check out the lab's publications and media spotlights!
 {%
   include feature.html
   image="images/contact/pic2.jpeg"
-  link="team"
-  title="Our Team"
+  link="publications"
+  title="Lab outputs"
   text=text
 %}
