@@ -1,3 +1,15 @@
+- id: doi:10.1098/rspb.2023.1290
+  type: paper
+  image: https://royalsocietypublishing.org/cms/asset/8e76a7b3-bb8d-4b65-8fe3-c8d226edd427/rspb20231290f01.jpg
+  tags:
+    - biodiversity
+
+- id: doi:10.1007/s10021-023-00874-w
+  type: paper
+  image: images/pubs/ecos24.png
+  tags:
+    - biodiversity
+
 - id: doi:10.1111/nph.18856
   type: paper
   image: https://nph.onlinelibrary.wiley.com/cms/asset/3fbbe1a1-0cfc-41d3-8e3e-5b37bd2efc56/nph18856-fig-0001-m.jpg
@@ -7,7 +19,7 @@
 
 - id: doi:10.1038/s41477-022-01230-x
   type: paper
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-022-01230-x/MediaObjects/41477_2022_1230_Fig3_HTML.png
+  image: images/pubs/natPlants22.png
   tags: 
     - mortality
     - lightning
@@ -17,12 +29,12 @@
   image: https://esajournals.onlinelibrary.wiley.com/cms/asset/8a1f7884-9c5c-4b8d-bf7e-6bc8c563425e/ecy3541-fig-0001-m.jpg
   tags: 
     - mortality
-    - lightning
+    - lightning 
     - biodiversity
 
 - id: doi:10.1038/s41477-021-00879-0
   type: paper
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-021-00879-0/MediaObjects/41477_2021_879_Fig3_HTML.png
+  image: images/pubs/natPlants21.png
   tags: 
     - mortality
     - lightning
@@ -93,7 +105,7 @@
 
 - id: doi:10.1007/s10021-019-00341-5
   type: paper
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10021-019-00341-5/MediaObjects/10021_2019_341_Fig3_HTML.png
+  image: images/pubs/ecos19.png
   tags: 
     - deadwood
 
@@ -149,6 +161,6 @@
 
 - id: doi:10.3159/TORREY-D-13-00066.1
   type: paper
-  image: https://bioone.org/ContentImages/Journals/tbot/141/2/TORREY-D-13-00066.1/graphic/WebImages/i1095-5674-141-2-151-f01.jpg
+  image: images/pubs/torrey14.jpeg
   tags: 
     - deadwood
