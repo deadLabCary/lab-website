@@ -1,13 +1,13 @@
 - id: doi:10.1111/nph.18856
   type: paper
-  image: images/pubs/nph23.png
+  image: https://nph.onlinelibrary.wiley.com/cms/asset/3fbbe1a1-0cfc-41d3-8e3e-5b37bd2efc56/nph18856-fig-0001-m.jpg
   tags:
     - lightning
     - mortality
 
 - id: doi:10.1038/s41477-022-01230-x
   type: paper
-  image: https://www.nature.com/articles/s41477-022-01230-x/figures/3
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-022-01230-x/MediaObjects/41477_2022_1230_Fig3_HTML.png
   tags: 
     - mortality
     - lightning
@@ -22,7 +22,7 @@
 
 - id: doi:10.1038/s41477-021-00879-0
   type: paper
-  image: https://www.nature.com/articles/s41477-021-00879-0/figures/3
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-021-00879-0/MediaObjects/41477_2021_879_Fig3_HTML.png
   tags: 
     - mortality
     - lightning
@@ -93,7 +93,7 @@
 
 - id: doi:10.1007/s10021-019-00341-5
   type: paper
-  image: https://link.springer.com/article/10.1007/s10021-019-00341-5/figures/3
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10021-019-00341-5/MediaObjects/10021_2019_341_Fig3_HTML.png
   tags: 
     - deadwood
 
