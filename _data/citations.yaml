@@ -103,10 +103,9 @@
   file: sources.yaml
   type: paper
   description: Harper Prize finalist for best paper by an early career scientist
-  image: null
+  image: https://besjournals.onlinelibrary.wiley.com/cms/asset/787dcfc8-ac06-4bd8-803d-60ae601ca0aa/jec13404-fig-0004-m.jpg
   tags:
   - lightning
-  - model
 - id: doi:10.1111/gcb.15227
   title: "Pantropical geography of lightning\u2010caused disturbance and its implications\
     \ for tropical forests"
@@ -123,10 +122,12 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://onlinelibrary.wiley.com/cms/asset/3b7f0f24-b127-404d-ac17-82560875f5d4/gcb15227-fig-0001-m.jpg
   tags:
-  - disturbance
+  - mortality
   - lightning
+  - biodiversity
+  - conservation
 - id: doi:10.1093/aesa/saaa015
   title: Lightning Damage Facilitates Beetle Colonization of Tropical Trees
   authors:
@@ -140,10 +141,11 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://bioone.org/ContentImages/Journals/esaa/113/6/saaa015/graphic/WebImages/img-z3-9_447.jpg
   tags:
   - lightning
-  - decomposition
+  - deadwood
+  - biodiversity
 - id: doi:10.1111/btp.12826
   title: "Lightning\u2010caused disturbance in the Peruvian Amazon"
   authors:
@@ -156,10 +158,10 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://onlinelibrary.wiley.com/cms/asset/5ff5c89b-bf2f-4824-8d3d-40afce21bfae/btp12826-fig-0001-m.jpg
   tags:
   - lightning
-  - disturbance
+  - mortality
 - id: doi:10.1111/nph.16260
   title: Lightning is a major cause of large tree mortality in a lowland neotropical
     forest
@@ -179,10 +181,11 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://nph.onlinelibrary.wiley.com/cms/asset/1b388a7e-5f91-4f81-bce8-6c60829b1b8a/nph16260-fig-0001-m.jpg
   tags:
   - lightning
   - mortality
+  - biodiversity
 - id: doi:10.1111/1365-2435.13440
   title: 'Dispersal and nutrient limitations of decomposition above the forest floor:
     Evidence from experimental manipulations of epiphytes and macronutrients'
@@ -196,9 +199,9 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://besjournals.onlinelibrary.wiley.com/cms/asset/2c340b44-e183-44c0-ad7d-d1734dbabebd/fec13440-fig-0002-m.jpg
   tags:
-  - decomposition
+  - deadwood
 - id: doi:10.1111/btp.12709
   title: Do lianas shape ant communities in an early successional tropical forest?
   authors:
@@ -216,7 +219,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://onlinelibrary.wiley.com/cms/asset/fea0bb55-8b84-4ed4-9b5f-6f7baf6575b3/btp12709-fig-0002-m.jpg
   tags:
   - biodiversity
 - id: doi:10.1098/rspb.2019.1536
@@ -234,9 +237,9 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://royalsocietypublishing.org/cms/asset/afff0628-fa14-4b79-bb57-b820eb057497/rspb20191536f03.jpg
   tags:
-  - decomposition
+  - deadwood
 - id: doi:10.1007/s10021-019-00341-5
   title: 'Dead Wood Necromass in a Moist Tropical Forest: Stocks, Fluxes, and Spatiotemporal
     Variability'
@@ -252,7 +255,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://link.springer.com/article/10.1007/s10021-019-00341-5/figures/3
   tags:
   - deadwood
 - id: doi:10.1007/s10021-019-00359-9
@@ -269,10 +272,10 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10021-019-00359-9/MediaObjects/10021_2019_359_Fig5_HTML.png
   tags:
   - biodiversity
-  - decomposition
+  - deadwood
 - id: doi:10.1093/aesa/say026
   title: 'A Functional Comparison of Swimming Behavior in Two Temperate Forest Ants
     (Camponotus pennsylvanicus and Formica subsericea) (Hymenoptera: Formicidae)'
@@ -287,7 +290,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://bioone.org/ContentImages/Journals/esaa/111/6/say026/graphic/WebImages/t04_319.gif
   tags:
   - biodiversity
 - id: doi:10.1111/1365-2435.13047
@@ -305,7 +308,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://besjournals.onlinelibrary.wiley.com/cms/asset/06b8d0ac-5ae0-4fff-8332-7c265ca85b9e/fec13047-fig-0001-m.jpg
   tags:
   - decomposition
 - id: doi:10.1111/cobi.12949
@@ -340,7 +343,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://onlinelibrary.wiley.com/cms/asset/dc5e84f4-72bf-47b1-84db-71f48f82416c/ece33347-fig-0006-m.jpg
   tags:
   - lightning
 - id: doi:10.1002/ece3.3095
@@ -358,9 +361,10 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://onlinelibrary.wiley.com/cms/asset/9e2c8daf-f138-4811-9217-6937fd1f3944/ece33095-fig-0009-m.jpg
   tags:
   - lightning
+  - mortality
 - id: doi:10.25849/MYRMECOL.NEWS_023:033
   title: 'Orientation at the water surface by the carpenter ant Camponotus pennsylvanicus
     (De Geer, 1773) (Hymenoptera: Formicidae)'
@@ -391,7 +395,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://cdnsciencepub.com/cms/10.1139/cjfr-2015-0081/asset/images/large/cjfr-2015-0081f5.jpeg
   tags:
   - lightning
 - id: doi:10.1139/cjfr-2014-0380
@@ -407,9 +411,10 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: null
+  image: https://cdnsciencepub.com/cms/10.1139/cjfr-2014-0380/asset/images/large/cjfr-2014-0380f1.jpeg
   tags:
   - biodiversity
+  - lightning
 - id: doi:10.3159/torrey-d-13-00066.1
   title: Patterns of coarse woody debris volume among 18 late-successional and mature
     forest stands in Pennsylvania<sup>1</sup>
@@ -437,10 +442,11 @@
   date: '2021-10-20'
   link: https://doi.org/gsmsbx
   type: paper
-  image: null
+  image: https://esajournals.onlinelibrary.wiley.com/cms/asset/8a1f7884-9c5c-4b8d-bf7e-6bc8c563425e/ecy3541-fig-0001-m.jpg
   tags:
   - mortality
   - lightning
+  - biodiversity
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.25849/myrmecol.news_023:033
@@ -471,7 +477,7 @@
   date: '2014-04-01'
   link: https://doi.org/f6snbp
   type: paper
-  image: null
+  image: https://bioone.org/ContentImages/Journals/tbot/141/2/TORREY-D-13-00066.1/graphic/WebImages/i1095-5674-141-2-151-f01.jpg
   tags:
   - deadwood
   plugin: sources.py
