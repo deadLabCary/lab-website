@@ -5,7 +5,7 @@ nav:
   tooltip: Our lab in the world!
 ---
 
-# {% include icon.html icon="fa-solid fa-microphone" %}Media
+# {% include icon.html icon="fa-solid fa-microphone" %}Outreach
 
 From podcasts to articles, check out our lab's work being highlighted by external media.
 

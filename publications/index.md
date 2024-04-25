@@ -13,6 +13,13 @@ Check out our lab papers below!
 
 ## All
 
+Search by year or by tag:
+- biodiversity
+- lightning
+- mortality
+- conservation
+- deadwood
+
 {% include search-box.html %}
 
 {% include search-info.html %}
