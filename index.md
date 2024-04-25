@@ -27,7 +27,7 @@ Follow our news and happenings from the lab.
 {%
   include feature.html
   image="images/main/picUpdate.png"
-  link="news"
+  link=""
   title="Lab updates"
   text=text
 %}
@@ -50,7 +50,7 @@ Our lab has a number of ongoing projects, from lightning mortality to investigat
 {%
   include feature.html
   image="images/main/picProjects.jpeg"
-  link="projects"
+  link=""
   title="Our Projects"
   flip=true
   style="bare"
@@ -75,7 +75,7 @@ We are a group of ecologists, scientists, and life-long students. Together, we c
 {%
   include feature.html
   image="images/main/picTeam.jpeg"
-  link="team"
+  link=""
   title="Our Team"
   text=text
   flip=false
@@ -88,7 +88,16 @@ Check out the lab's publications and media spotlights!
 {%
   include button.html
   link="publications"
-  text="Check out our lab outputs"
+  text="Browse our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{%
+  include button.html
+  link="outreach"
+  text="Read our features and interviews"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -99,7 +108,7 @@ Check out the lab's publications and media spotlights!
 {%
   include feature.html
   image="images/contact/pic2.jpeg"
-  link="publications"
+  link=""
   title="Lab outputs"
   text=text
   flip=true

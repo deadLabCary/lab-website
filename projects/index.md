@@ -38,7 +38,7 @@ nav:
   image="https://evanmgora.net/wp-content/uploads/2016/01/experimental-blocks.jpg?w=2000&h="
   title="Deadwood decomposition"
   subtitle=""
-  description="Tropical forests are disproportionately important to the global carbon cycle and the vast majority of aboveground carbon is stored in woody tissues. This carbon is released as dead wood decomposes, yet the process of wood decomposition is poorly studied in tropical forests. I am investigating the distribution and decomposition of dead wood in tropical forests. The current stage of this work uses forest plots to understand wood decomposition at large scales and over long time frames."
+  description="After trees die, their carbon is released as they decompose, but this process is poorly understood in tropical forests."
   tooltip=""
   tags="tropical forests"
   repo=""

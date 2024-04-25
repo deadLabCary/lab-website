@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Outreach
 nav:
   order: 4
   tooltip: Our lab in the world!
