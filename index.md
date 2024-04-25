@@ -3,7 +3,7 @@
 
 # Our research
 
-The Disturbance Ecology and Decomposition lab (DEAD lab) investigates plant death, decomposition, and carbon cycling in the context of global change. We study the patterns and processes of plant death locally, and then use “big data” to scale these findings to the landscape and beyond. Our group leads pioneering research into the effects of a rarely studied phenomenon - lightning, but our work extends across all major agents of plant death.  After plants die, they decompose with major implications for the carbon budget. We also explore how environmental conditions, biogeochemistry, and decomposer community assembly influence decomposition. 
+The Disturbance Ecology and Decomposition lab (DEAD lab) investigates plant death, decomposition, and carbon cycling in the context of global change. We study the patterns and processes of plant death locally, and then use “big data” to scale these findings to the landscape and beyond. Our group leads pioneering research into the effects of a rarely studied phenomenon - lightning, but our work extends across all major agents of plant death. After plants die, they decompose with major implications for the carbon budget. We also explore how environmental conditions, biogeochemistry, and decomposer community assembly influence decomposition. 
 
 {% include section.html %}
 
@@ -94,8 +94,6 @@ Check out the lab's publications and media spotlights!
   style="bare"
 %}
 
-{% endcapture %}
-
 {%
   include button.html
   link="outreach"
@@ -104,6 +102,8 @@ Check out the lab's publications and media spotlights!
   flip=true
   style="bare"
 %}
+
+{% endcapture %}
 
 {%
   include feature.html
