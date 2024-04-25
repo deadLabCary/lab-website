@@ -96,8 +96,6 @@ Check out the lab's publications and media spotlights!
 
 {% endcapture %}
 
-{% capture text %}
-
 {%
   include button.html
   link="outreach"
@@ -106,8 +104,6 @@ Check out the lab's publications and media spotlights!
   flip=true
   style="bare"
 %}
-
-{% endcapture %}
 
 {%
   include feature.html
