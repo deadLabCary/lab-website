@@ -94,6 +94,10 @@ Check out the lab's publications and media spotlights!
   style="bare"
 %}
 
+{% endcapture %}
+
+{% capture text %}
+
 {%
   include button.html
   link="outreach"

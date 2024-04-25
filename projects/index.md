@@ -9,7 +9,7 @@ nav:
 
 {%
   include card.html
-  image="images/space.jpg"
+  image="https://www.caryinstitute.org/sites/default/files/public/2023-08/lightning_tree_damage_cc_evan_gora.jpg"
   link="https://www.caryinstitute.org/science/research-projects/gigante-revealing-what-kills-worlds-largest-trees"
   title="Gigante"
   subtitle=""
