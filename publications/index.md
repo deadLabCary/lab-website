@@ -7,18 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book" %}Publications
 
-Check out our lab papers below!
+Check out our lab papers below! Search by year or tag
+
+{% include tags.html tags="lightning, mortality, conservation, biodiversity, deadwood" %}
 
 {% include section.html %}
 
 ## All
-
-Search by year or by tag:
-- biodiversity
-- lightning
-- mortality
-- conservation
-- deadwood
 
 {% include search-box.html %}
 
