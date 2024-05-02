@@ -10,7 +10,7 @@ nav:
 {% capture content %}
     {%
         include figure.html
-        image="images/field/PXL_20231005_224621230.jpg"
+        image="./images/field/PXL_20231005_224621230.jpg"
         caption="The field station at Barro Colorado Island"
         width="400px"
     %}
@@ -58,7 +58,7 @@ nav:
     %}
     {%
         include figure.html
-        image="/images/field/PXL_20231008_151419145.jpg"
+        image="images/field/PXL_20231008_151419145.jpg"
         caption="One of the tall trees on BCI"
         width="400px"
     %}
