@@ -7,13 +7,17 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-camera" %}Lab photos
 
-{% include figure.html image="images/field/PXL_20231005_224621230.jpg" %}
+{% 
+    include figure.html 
+    image="images/field/PXL_20231005_224621230.jpg"
+    caption="The field station at Barro Colorado Island"
+%}
 
 {% capture content %}
 {%
     include figure.html
-    image="images/field/PXL_20231005_224621230.jpg"
-    caption="The field station at Barro Colorado Island"
+    image="images/field/Evan_Rodrigue.jpg"
+    caption="Evan explaining how to identify a lightning strike"
     width="400px"
 %}
 
