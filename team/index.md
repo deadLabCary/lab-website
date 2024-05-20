@@ -43,31 +43,31 @@ nav:
 
 {% 
   include figure.html 
-  image="/images/funding/stri.png" 
+  image="images/funding/stri.png" 
   link="https://stri.si.edu/"
 %}
 
 {% 
   include figure.html 
-  image="/images/funding/nsf.png" 
+  image="images/funding/nsf.png" 
   link="https://www.nsf.gov/"
 %}
 
 {% 
   include figure.html 
-  image="/images/funding/cary-institute.jpg" 
+  image="images/funding/cary-institute.jpg" 
   link="https://www.caryinstitute.org/"
 %}
 
 {%
   include figure.html 
-  image="/images/funding/nasa.png" 
+  image="images/funding/nasa.png" 
   link="https://www.nasa.gov/"
 %}
 
 {% 
   include figure.html 
-  image="/images/funding/forest-geo.jpeg" 
+  image="images/funding/forest-geo.jpeg" 
   link="https://forestgeo.si.edu/"
 %}
 
@@ -79,13 +79,13 @@ nav:
 
 {%
   include figure.html 
-  image="/images/funding/royal-society.png" 
+  image="images/funding/royal-society.png" 
   link="https://royalsociety.org/"
 %}
 
 {%
   include figure.html 
-  image="/images/funding/yncc.jpeg" 
+  image="images/funding/yncc.jpeg" 
   link="https://naturalcarboncapture.yale.edu/"
 %}
 
