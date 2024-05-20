@@ -36,7 +36,7 @@
 
     {% if include.description %}
       <p>
-        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" | text-align: left}}
       </p>
     {% endif %}
 
