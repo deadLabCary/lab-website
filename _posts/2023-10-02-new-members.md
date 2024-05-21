@@ -1,9 +1,15 @@
 ---
 title: Welcome to new lab members!
+image: images/field/groupPhoto_2023.JPG
 author: ian-mcgregor
+last_modified_at: ""
 tags:
   - updates
+  - additions
 ---
+<!-- excerpt start -->
+Welcome to new postdocs (Vanessa and Ian) and field technicians (César and Fernando). 
+<!-- excerpt end -->
 
 Over the past couple months, the DEAD lab membership has increased in size! Below we welcome two new postdocs and two field technicians.
 
