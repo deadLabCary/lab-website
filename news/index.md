@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-newspaper" %} Annual summaries and haphazard updates
 
-Check out updates from our lab below, including dispatches from the field, new members, and other general research news. Be sure to check back each summer for a more in-depth look at what the lab has been up to over the previous year!
+Check out updates from our lab below, including dispatches from the field, new members, and other general research news. 
+
+Be sure to check back each summer for a more in-depth look at what the lab has been up to over the previous year!
 
 {% include section.html %}
 
