@@ -1,3 +1,9 @@
+- id: doi:10.1038/s41586-024-07110-y
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-024-07110-y/MediaObjects/41586_2024_7110_Fig1_HTML.png
+  tags:
+    - biodiversity
+
 - id: doi:10.1098/rspb.2023.1290
   type: paper
   image: https://royalsocietypublishing.org/cms/asset/8e76a7b3-bb8d-4b65-8fe3-c8d226edd427/rspb20231290f01.jpg
