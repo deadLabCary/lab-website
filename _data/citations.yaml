@@ -437,6 +437,23 @@
   orcid: 0000-0002-0537-5835
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1038/s41586-024-07110-y
+  title: Mutualisms weaken the latitudinal diversity gradient among oceanic islands
+  authors:
+  - Camille S. Delavaux
+  - Thomas W. Crowther
+  - James D. Bever
+  - Patrick Weigelt
+  - Evan M. Gora
+  publisher: Nature
+  date: '2024-02-28'
+  link: https://doi.org/gtp67f
+  type: paper
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-024-07110-y/MediaObjects/41586_2024_7110_Fig1_HTML.png
+  tags:
+  - biodiversity
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/ecy.3541
   title: The contributions of lightning to biomass turnover, gap formation and plant
     mortality in a tropical forest
