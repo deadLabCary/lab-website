@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://deadlabcary.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://deadlabcary.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-06-21T15:45:59+00:00</updated><id>https://deadlabcary.github.io/lab-website/feed.xml</id><title type="html">DEAD Lab</title><entry><title type="html">Welcome to new lab members and field trip to Brazil</title><link href="https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil.html" rel="alternate" type="text/html" title="Welcome to new lab members and field trip to Brazil" /><published>2024-06-21T00:00:00+00:00</published><updated>2024-06-21T00:00:00+00:00</updated><id>https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil</id><content type="html" xml:base="https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://deadlabcary.github.io/lab-website/feed.xml" rel="self" type="application/atom+xml" /><link href="https://deadlabcary.github.io/lab-website/" rel="alternate" type="text/html" /><updated>2024-06-21T15:49:58+00:00</updated><id>https://deadlabcary.github.io/lab-website/feed.xml</id><title type="html">DEAD Lab</title><entry><title type="html">Welcome to new lab members and field trip to Brazil</title><link href="https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil.html" rel="alternate" type="text/html" title="Welcome to new lab members and field trip to Brazil" /><published>2024-06-21T00:00:00+00:00</published><updated>2024-06-21T00:00:00+00:00</updated><id>https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil</id><content type="html" xml:base="https://deadlabcary.github.io/lab-website/2024/06/21/Ducke-Brazil.html"><![CDATA[<!-- excerpt start -->
 <p>Welcome to new postdoc Gisele Biem Mori, field technician Flamarion Prado Assunção (Pinduca), and affiliate PhD student Gustavo Lemes! All of them are based in Brazil.
 <!-- excerpt end --></p>
 
@@ -9,6 +9,8 @@ was spent practicing the field protocol, training Pinduca, Isabella Braga and C�
 for studying tree heartrot. However, there was also time for cooking very good farofa (toasted cassava flour with sweet plantain) and eating delicious tapioca (cassava flour “crepes”) . 
 During some of the days they participated in media coverage with lots of filming and interviews about the Gigante project. Stay tuned for the release!</p>
 
+<div class="grid" data-style="">
+  
 <figure class="figure">
   <a class="figure-image" aria-label="Uprooted Gigante">
     <img src="/lab-website/images/field/IMG_2245.jpg" style="
@@ -53,116 +55,6 @@ During some of the days they participated in media coverage with lots of filming
     </figcaption>
   
 </figure>
-
-<div class="grid" data-style="">
-  
-<!-- section break -->
-<!--
-  background: images/field/PXL_20231005_184049637.jpg;
-  dark: ;
-  size: 1;
--->
-
-<h1 class="center">News from the field but no lightning</h1>
-
-<div class="post-info">
-  
-    
-    
-      
-
-<div class="portrait-wrapper">
-  <a href="/lab-website/members/ian-mcgregor.html" class="portrait" data-style="tiny" aria-label="Ian McGregor">
-    <img src="/lab-website/images/team/ian-mcgregor.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/lab-website/images/fallback.svg'; this.onerror = null;" />
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Ian McGregor
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Postdoctoral Researcher</span>
-          </span>
-        
-      </span>
-    
-  </a>
-</div>
-
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>October 16, 2023</span>
-    </span>
-  
-
-  
-</div>
-
-<div class="tags" data-link="https://deadlabcary.github.io/lab-website/blog">
-    
-      <a href="https://deadlabcary.github.io/lab-website/blog?search=&quot;tag: updates&quot;" class="tag" data-tooltip="Show items with the tag &quot;updates&quot;">
-        updates
-      </a>
-    
-      <a href="https://deadlabcary.github.io/lab-website/blog?search=&quot;tag: field&quot;" class="tag" data-tooltip="Show items with the tag &quot;field&quot;">
-        field
-      </a>
-    
-  </div>
-
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<!-- excerpt start -->
-<p>Field update from Panama featuring lightning, drones, and Gigantes.
-<!-- excerpt end --></p>
-
-<p>Hello from Barro Colorado Island in Panama! The DEAD lab has been busy these past few weeks as research is ramping up in support of the lightning project and Gigante. In late September, Evan and Ian traveled to the island to start trying to find recent lightning strikes using the electromagnetic sensors set up across central Panama. Unfortunately, they quickly found out that due to El Niño this year there have been very few storms compared to a normal wet season, and those that have developed have had very few actual lightning strikes on the ground. In fact, lightning isn’t the only thing that’s been affected by the weather patterns; the canal is at its lowest water level in recent years, in some spots holding steady at 2m below what it should be. Instead of searching for new strikes from a drone flight the previous week that Jeff flew, Ian got to work processing previous drone imagery to see if there were older strikes the lab could hike to. After a team effort of finding potential strikes and gaps in the orthomosaics, Evan, Jeff, Matt, and Ian together spent several days walking through the rainforest for a couple reasons. First, Ian and Matt were trained on how identify lightning strikes, and second, we all developed and tested a field survey protocol for the lightning project in the long run. Despite the heat, at least only one of the days had a full downpour!</p>
-
-<p>Besides the field work, Evan - along with Vanessa and collaborator Dr. Adriane Esquivel-Muelbert - has fully started on the Gigante project by creating the protocol for site visits that will eventually expand to other sites across the Tropics.</p>
-
-<!-- section break -->
-<!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<div class="post-nav">
-  <span>
-    
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br />
-      <a href="/lab-website/2023/10/02/new-members.html">
-        Welcome to new lab members!
-      </a>
-    
-  </span>
-  <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br />
-      <a href="/lab-website/2024/06/21/Ducke-Brazil.html">
-        Welcome to new lab members and field trip to Brazil
-      </a>
-    
-  </span>
-</div>
 
 
 </div>]]></content><author><name>vanessa-rubio</name></author><category term="updates" /><category term="additions" /><summary type="html"><![CDATA[Welcome to new postdoc Gisele Biem Mori, field technician Flamarion Prado Assunção (Pinduca), and affiliate PhD student Gustavo Lemes! All of them are based in Brazil.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://deadlabcary.github.io/lab-website/images/field/WhatsApp%20Image%202024-06-11%20at%2013.11.41.jpeg" /><media:content medium="image" url="https://deadlabcary.github.io/lab-website/images/field/WhatsApp%20Image%202024-06-11%20at%2013.11.41.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">News from the field but no lightning</title><link href="https://deadlabcary.github.io/lab-website/2023/10/16/field-visit.html" rel="alternate" type="text/html" title="News from the field but no lightning" /><published>2023-10-16T00:00:00+00:00</published><updated>2023-10-16T00:00:00+00:00</updated><id>https://deadlabcary.github.io/lab-website/2023/10/16/field-visit</id><content type="html" xml:base="https://deadlabcary.github.io/lab-website/2023/10/16/field-visit.html"><![CDATA[<!-- excerpt start -->
