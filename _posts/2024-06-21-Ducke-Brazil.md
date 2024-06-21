@@ -18,6 +18,7 @@ was spent practicing the field protocol, training Pinduca, Isabella Braga and C�
 for studying tree heartrot. However, there was also time for cooking very good farofa (toasted cassava flour with sweet plantain) and eating delicious tapioca (cassava flour “crepes”) . 
 During some of the days they participated in media coverage with lots of filming and interviews about the Gigante project. Stay tuned for the release!
 
+{% capture content %}
 {%
     include figure.html
     image="images/field/IMG_2245.jpg"
@@ -37,6 +38,7 @@ During some of the days they participated in media coverage with lots of filming
     caption="César and Isabella measuring a Gigante tree"
     width="400px"
 %}
+{% endcapture %}
 
 {%
   include grid.html
