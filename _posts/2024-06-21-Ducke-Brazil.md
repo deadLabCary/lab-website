@@ -38,8 +38,6 @@ During some of the days they participated in media coverage with lots of filming
     width="400px"
 %}
 
-{% endcapture %}
-
 {%
   include grid.html
   content=content
