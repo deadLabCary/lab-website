@@ -1,12 +1,13 @@
 ---
 title: Welcome to new lab members and field trip to Brazil
-image: images/field/WhatsApp Image 2024-06-11 at 13.11.41.jpeg
+image: images/field/groupPicBrazil_2024-06.jpeg
 author: vanessa-rubio
 last_modified_at: ""
 tags:
   - updates
   - additions
 ---
+
 <!-- excerpt start -->
 Welcome to new postdoc Gisele Biem Mori, field technician Flamarion Prado Assunção (Pinduca), and affiliate PhD student Gustavo Lemes! All of them are based in Brazil.
 <!-- excerpt end -->
@@ -18,13 +19,13 @@ was spent practicing the field protocol, training Pinduca, Isabella Braga and C�
 for studying tree heartrot. However, there was also time for cooking very good farofa (toasted cassava flour with sweet plantain) and eating delicious tapioca (cassava flour “crepes”) . 
 During some of the days they participated in media coverage with lots of filming and interviews about the Gigante project. Stay tuned for the release!
 
-{% capture content %}
 {%
     include figure.html
     image="images/field/IMG_2245.jpg"
     caption="Uprooted Gigante"
     width="400px"
 %}
+
 {%
     include figure.html
     image="images/field/IMG_2197.jpg"
@@ -37,10 +38,4 @@ During some of the days they participated in media coverage with lots of filming
     image="images/field/IMG_2436.jpg"
     caption="César and Isabella measuring a Gigante tree"
     width="400px"
-%}
-{% endcapture %}
-
-{%
-  include grid.html
-  content=content
 %}
