@@ -17,3 +17,30 @@ from the Fabaceae family. It rained most of the days in the field, but the rain 
 was spent practicing the field protocol, training Pinduca, Isabella Braga and César Arruda da Silva, installing soil moisture and temperature probes, and building the resistograph protocol 
 for studying tree heartrot. However, there was also time for cooking very good farofa (toasted cassava flour with sweet plantain) and eating delicious tapioca (cassava flour “crepes”) . 
 During some of the days they participated in media coverage with lots of filming and interviews about the Gigante project. Stay tuned for the release!
+
+{%
+    include figure.html
+    image="images/field/IMG_2245.jpg"
+    caption="Uprooted Gigante"
+    width="400px"
+%}
+{%
+    include figure.html
+    image="images/field/IMG_2197.jpg"
+    caption="Evan and our drone"
+    width="400px"
+%}
+
+{%
+    include figure.html
+    image="images/field/IMG_2436.jpg"
+    caption="César and Isabella measuring a Gigante tree"
+    width="400px"
+%}
+
+{% endcapture %}
+
+{%
+  include grid.html
+  content=content
+%}
