@@ -1,5 +1,5 @@
 ---
-title: A Year in Review: 2023-2024
+title: A Year in Review 2023-2024
 author: Evan Gora
 last_modified_at: ""
 tags:
