@@ -1,5 +1,6 @@
 ---
 title: A Year in Review 2023-2024
+images: images/field/uprootTree.jpg
 author: Evan Gora
 last_modified_at: ""
 tags:
