@@ -1,7 +1,7 @@
 ---
 title: A Year in Review 2023-2024
-images: images/field/uprootTree.jpg
-author: Evan Gora
+image: images/field/uprootTree.jpg
+author: evan-gora
 last_modified_at: ""
 tags:
   - updates
@@ -9,10 +9,8 @@ tags:
 ---
 
 <!-- excerpt start -->
-A Year in Review: 2023-2024
-<!-- excerpt end -->
-
 It has been an eventful and exciting year in the DEAD Lab! With thanks to our amazing team and a fantastic set of collaborators, we have made major strides in advancing our understanding of the ecology of lightning, storms, lianas, and giant trees. Most importantly, we had many new additions to the research group, which are fueling these achievements.
+<!-- excerpt end -->
 
 Postdoc Ian McGregor joined the lab in August of 2023 to work on our NSF-funded investigation of lightning in Panama. He is improving methods for drone-based measurements of forest disturbance and working closely with colleague Jeff Burchfield (The University of Alabama in Huntsville) on the processing, filtering, and analysis of data from the field change meter array in Panama, which allows us to locate and quantify 10,000s of lightning strikes across >8,000 km2 of forest in central Panama. 
 
