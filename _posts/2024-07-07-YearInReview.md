@@ -9,12 +9,10 @@ tags:
 ---
 
 <!-- excerpt start -->
-A Year in Review: 2023-2024
+It has been an eventful and exciting year in the DEAD Lab! With thanks to our amazing team and a fantastic set of collaborators, we have made major strides in advancing our understanding of the ecology of lightning, storms, lianas, and giant trees. Most importantly, we had many new additions to the research group, which are fueling these achievements.
 <!-- excerpt end -->
 
-It has been an eventful and exciting year in the DEAD Lab! With thanks to our amazing team and a fantastic set of collaborators, we have made major strides in advancing our understanding of the ecology of lightning, storms, lianas, and giant trees. Most importantly, we had many new additions to the research group, which are fueling these achievements.
-
-Postdoc Ian McGregor joined the lab in August of 2023 to work on our NSF-funded investigation of lightning in Panama. He is improving methods for drone-based measurements of forest disturbance and working closely with colleague Jeff Burchfield (The University of Alabama in Huntsville) on the processing, filtering, and analysis of data from the field change meter array in Panama, which allows us to locate and quantify 10,000s of lightning strikes across >8,000 km2 of forest in central Panama. 
+Postdoc Ian McGregor joined the lab in August of 2023 to work on our NSF-funded investigation of lightning in Panama. He is improving methods for drone-based measurements of forest disturbance with colleagues KC Cushman (Oak Ridge National Lab) and Helene Muller-Landau (Smithsonian Tropical Research Institute), and working closely with colleague Jeff Burchfield (The University of Alabama in Huntsville) on the processing, filtering, and analysis of data from the field change meter array in Panama, which allows us to locate and quantify 10,000s of lightning strikes across >8,000 km2 of forest in central Panama. 
 
 Ian was followed shortly thereafter by postdoc Vanessa Rubio and technicians Cesar Gutierrez and Fernando Arauz. Vanessa is co-advised by Adriane Esquivel-Muelbert who is the UK co-lead of our NSF-NERC Gigante project investigating the mortality of giant trees, and she is already leading exciting analyses exploring the ecology and importance of long-lived giant trees. Cesar is the head technician of our lab group in Panama with contributions to all our projects there, while Fernando is focusing on data collection for the Gigante project. 
 
